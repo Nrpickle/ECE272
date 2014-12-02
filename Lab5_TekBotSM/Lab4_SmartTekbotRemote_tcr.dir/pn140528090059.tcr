@@ -1,0 +1,6 @@
+#Start recording tcl command: 5/28/2014 08:31:39
+#Project Location: C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM; Project name: Lab4_SmartTekbotRemote
+prj_project open "C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.ldf"
+prj_project save
+prj_project close
+#Stop recording: 5/28/2014 09:00:59

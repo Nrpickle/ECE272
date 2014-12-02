@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.0" title="section3" device="LCMXO2-7000HC-4TG144C" default_implementation="section3">
+    <Options/>
+    <Implementation title="section3" dir="section3" description="section3" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="section3_schematic"/>
+        <Source name="section3_schematic.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="section3_schematic"/>
+        </Source>
+        <Source name="section3_schematic_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="sec3_sim/sec3_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="section3.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="section3/section3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="section3/section3.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="section3_sim/section3_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="section3_simulation/section3_simulation.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="section31.sty"/>
+</BaliProject>

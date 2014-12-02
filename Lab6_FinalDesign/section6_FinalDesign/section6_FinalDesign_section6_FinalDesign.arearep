@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell interpretADC.<NoName>
+Register bits:  0 of 5148 (0.000%)
+I/O cells:      17
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        40          100.0
+                                GSR         1          100.0
+                                 IB         8          100.0
+                               LUT4        11          100.0
+                                 OB         7          100.0
+                                OBZ         2          100.0
+                              TOTAL        69

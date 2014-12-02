@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell section3_schematic.<NoName>
+Register bits:  0 of 5148 (0.000%)
+I/O cells:      12
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         1          100.0
+                               AND3        12          100.0
+                               AND4        12          100.0
+                                GSR         1          100.0
+                                 IB         4          100.0
+                                INV         8          100.0
+                                 OB         8          100.0
+                                OR3         3          100.0
+                                OR4         4          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL        54

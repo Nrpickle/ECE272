@@ -1,0 +1,58 @@
+timestamp=1400105162454
+
+[$root]
+A/$root=22|""|0|1*8735
+BinI32/$root=3*1490
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Lolhi]
+A/Lolhi=22|./../../Section4_Verilog.v|1|1*3195
+BinI32/Lolhi=3*397
+R=./../../Section4_Verilog.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Lolhi_tf]
+A/Lolhi_tf=22|./../../Lolhi_tf.v|18|1*9125
+BinI32/Lolhi_tf=3*1618
+R=./../../Lolhi_tf.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[inverter_nick_yay]
+A/inverter_nick_yay=22|./../../Section4_Verilog.v|59|1*6707
+BinI32/inverter_nick_yay=3*738
+R=./../../Section4_Verilog.v|59
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[mux2]
+A/mux2=22|./../../Section4_Verilog.v|48|1*7650
+BinI32/mux2=3*1058
+R=./../../Section4_Verilog.v|48
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[section2_schematic]
+A/section2_schematic=22|./../../Lab4_SmartTekbotRemote/section2_schematic.v|3|1*390
+BinI32/section2_schematic=3*128
+R=./../../Lab4_SmartTekbotRemote/section2_schematic.v|3
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote/section2_schematic.v=0*599*1250
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lolhi_tf.v=0*4676*5358
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_Verilog.v=0*2928*3810
+LastVerilogToplevel=Lolhi_tf
+ModifyID=55
+Version=73
+
+[~MFT]
+0=13|0work.mgf|5358|0
+1=9|1work.mgf|9125|780
+3=9|3work.mgf|1618|256
+
+[~U]
+$root=12|0*4333|
+Lolhi=12|0*2012||0x10
+Lolhi_tf=12|0*4563||0x10
+inverter_nick_yay=12|0*2555|
+mux2=12|0*2734|
+section2_schematic=12|0*198||0x10
+

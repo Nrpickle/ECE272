@@ -1,0 +1,32 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module Lolhi found in current working library."
+MESSAGE_SP VCP2113 "Module inverter_nick_yay found in current working library."
+MESSAGE_SP VCP2113 "Module section2_schematic found in current working library."
+MESSAGE_SP VCP2113 "Module mux2 found in current working library."
+MESSAGE_SP VCP2113 "Module inverter_nick_yay found in current working library."
+MESSAGE_SP VCP2113 "Module section2_schematic found in current working library."
+MESSAGE_SP VCP2113 "Module mux2 found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 84
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
+UPDATEPROGRESS 90
+UPDATEPROGRESS 92
+UPDATEPROGRESS 94
+UPDATEPROGRESS 96
+UPDATEPROGRESS 98
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: Lolhi_tf."
+MESSAGE "$root top modules: Lolhi_tf."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

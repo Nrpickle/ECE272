@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.0" title="section6_FinalDesign" device="LCMXO2-7000HE-4FTG256C" default_implementation="section6_FinalDesign">
+    <Options/>
+    <Implementation title="section6_FinalDesign" dir="section6_FinalDesign" description="section6_FinalDesign" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="Sec6_Top"/>
+        <Source name="sevenseg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Section6_SM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="sevenSeg_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="Section6_Top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Sec6_Top"/>
+        </Source>
+        <Source name="section6_FinalDesign/source/clock_counter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="determineNum.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="determineNum_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="Sec6_Top_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="section6_FinalDesign/source/interpretADC.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="sec6sim/sec6sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="section6_FinalDesign.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="section6_FinalDesign1.sty"/>
+</BaliProject>

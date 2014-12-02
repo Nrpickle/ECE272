@@ -1,0 +1,123 @@
+# Design Explorer: Shortcut to "C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Lab4_sim\Lab4_sim.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/section2_schematic.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Lab4_sim\section2_schematic.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Section4_Verilog.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Lab4_sim\Section4_Verilog.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Lolhi_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Lab4_sim\Lolhi_tf.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Lab2_TekbotRemote_schematic.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Lab4_sim\Lab2_TekbotRemote_schematic.v ... Done
+vlib C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/section2_schematic.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: section2_schematic.
+# $root top modules: section2_schematic.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Section4_Verilog.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module section2_schematic found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Lolhi.
+# $root top modules: Lolhi.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Lolhi_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Lolhi found in current working library.
+# Info: VCP2113 Module inverter_nick_yay found in current working library.
+# Info: VCP2113 Module section2_schematic found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Info: VCP2113 Module inverter_nick_yay found in current working library.
+# Info: VCP2113 Module section2_schematic found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Lolhi_tf.
+# $root top modules: Lolhi_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Lab2_TekbotRemote_schematic.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Lolhi_tf found in current working library.
+# Unit top modules: Lab2_TekbotRemote_schematic.
+# $root top modules: Lolhi_tf Lab2_TekbotRemote_schematic.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module Lolhi_tf
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Lolhi' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'inverter_nick_yay' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'section2_schematic' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'mux2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+vsim +access +r Lolhi_tf -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Lolhi' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'inverter_nick_yay' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'section2_schematic' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'mux2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 2.4 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.2 [s]
+# SLP: Finished : 4.5 [s]
+# SLP: 8 (47.06%) primitives and 9 (52.94%) other processes in SLP
+# SLP: 82 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 5.0 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5277 kB (elbread=1023 elab2=4108 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Lab4_sim\src\wave.asdb
+#  1:41 PM, Wednesday, May 14, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: Lolhi_tf (Lolhi_tf)
+add wave *
+# 9 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped

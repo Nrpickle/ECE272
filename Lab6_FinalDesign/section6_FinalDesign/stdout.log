@@ -1,0 +1,84 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.1_x64\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.1_x64\synpbase
+Date:        Wed Jun 04 10:04:54 2014
+Version:     I-2013.09L 
+
+Arguments:   -product synplify_pro  -batch section6_FinalDesign_section6_FinalDesign_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign.srr"
+
+
+
+
+
+Running proj_1|section6_FinalDesign
+
+
+Running: Compile on proj_1|section6_FinalDesign
+
+
+Running: Compile Process on proj_1|section6_FinalDesign
+
+
+Running: Compile Input on proj_1|section6_FinalDesign
+
+Copied C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\synwork\section6_FinalDesign_section6_FinalDesign_comp.srs to C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign.srs
+
+compiler Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+
+
+Copied C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign.srr to C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign.srf
+
+Complete: Compile Process on proj_1|section6_FinalDesign
+
+
+Running: Premap on proj_1|section6_FinalDesign
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:06s
+
+
+Complete: Compile on proj_1|section6_FinalDesign
+
+
+Running: Map on proj_1|section6_FinalDesign
+
+
+Running: Map & Optimize on proj_1|section6_FinalDesign
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+
+
+Complete: Map on proj_1|section6_FinalDesign
+
+Copied C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign.srr to C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign.srf
+
+Complete: Logic Synthesis on proj_1|section6_FinalDesign
+
+TCL script complete: "section6_FinalDesign_section6_FinalDesign_synplify.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+Save changes for project:
+C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\proj_1.prj
+
+batch mode default:no
+

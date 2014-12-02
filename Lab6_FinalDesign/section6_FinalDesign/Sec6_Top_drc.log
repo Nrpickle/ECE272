@@ -1,0 +1,34 @@
+Results of NGD DRC are available in Sec6_Top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'ADCData[7]' has no load
+WARNING - synthesis: input pad net 'ADCData[7]' has no legal load
+WARNING - synthesis: logical net 'ADCData[6]' has no load
+WARNING - synthesis: input pad net 'ADCData[6]' has no legal load
+WARNING - synthesis: logical net 'ADCData[5]' has no load
+WARNING - synthesis: input pad net 'ADCData[5]' has no legal load
+WARNING - synthesis: logical net 'ADCData[4]' has no load
+WARNING - synthesis: input pad net 'ADCData[4]' has no legal load
+WARNING - synthesis: logical net 'ADCData[3]' has no load
+WARNING - synthesis: input pad net 'ADCData[3]' has no legal load
+WARNING - synthesis: logical net 'ADCData[2]' has no load
+WARNING - synthesis: input pad net 'ADCData[2]' has no legal load
+WARNING - synthesis: logical net 'ADCData[1]' has no load
+WARNING - synthesis: input pad net 'ADCData[1]' has no legal load
+WARNING - synthesis: logical net 'ADCData[0]' has no load
+WARNING - synthesis: input pad net 'ADCData[0]' has no legal load
+WARNING - synthesis: logical net 'counter_1/dff_11_31_32_add_4_1/S0' has no load
+WARNING - synthesis: logical net 'counter_1/dff_11_31_32_add_4_15/CO' has no load
+WARNING - synthesis: DRC complete with 18 warnings
+
+Design Results:
+     52 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file section6_FinalDesign_section6_FinalDesign.ngd.

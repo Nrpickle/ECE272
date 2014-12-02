@@ -1,0 +1,276 @@
+<top name = "Lolhi"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "Lolhi">
+
+    <!--
+        Top Level Pins: 9
+    -->
+
+    <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "AnalogLDir"  direction = "in"  />
+        <pitem  name = "AnalogRDir"  direction = "in"  />
+        <pitem  name = "Len"  direction = "out"  />
+        <pitem  name = "Ldir"  direction = "out"  />
+        <pitem  name = "Ren"  direction = "out"  />
+        <pitem  name = "Rdir"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 17
+    -->
+
+    <instance  name = "i1"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "n1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I3"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Z_B"  />
+        <nitem  name = "Z_C"  />
+        <nitem  name = "\lab2Logic/N_3"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I2"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Z_A"  />
+        <nitem  name = "Z_B"  />
+        <nitem  name = "\lab2Logic/N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\invA/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "A"  />
+        <nitem  name = "Z_A"  />
+        </nets>
+    </instance>
+
+    <instance  name = "i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "AnalogLDir"  />
+        <nitem  name = "AnalogRDir"  />
+        <nitem  name = "Analog_select"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\invB/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "B"  />
+        <nitem  name = "Z_B"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\invC/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "C"  />
+        <nitem  name = "Z_C"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I1"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ldir_int"  />
+        <nitem  name = "Rdir_int"  />
+        <nitem  name = "\lab2Logic/N_8"  />
+        <nitem  name = "\lab2Logic/N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\mux_1/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "AnalogLDir"  />
+        <nitem  name = "Ldir_int"  />
+        <nitem  name = "Analog_select"  />
+        <nitem  name = "Ldir"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\mux_2/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "n1"  />
+        <nitem  name = "Len_int"  />
+        <nitem  name = "Analog_select"  />
+        <nitem  name = "Len"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\mux_3/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "AnalogRDir"  />
+        <nitem  name = "Rdir_int"  />
+        <nitem  name = "Analog_select"  />
+        <nitem  name = "Rdir"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\mux_4/i4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "n1"  />
+        <nitem  name = "Ren_int"  />
+        <nitem  name = "Analog_select"  />
+        <nitem  name = "Ren"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "Z"  direction = "out"  />
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Len_int"  />
+        <nitem  name = "\lab2Logic/N_1"  />
+        <nitem  name = "\lab2Logic/N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I5"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "Z"  direction = "out"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "A"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ren_int"  />
+        <nitem  name = "\lab2Logic/N_3"  />
+        <nitem  name = "\lab2Logic/N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I6"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Z_C"  />
+        <nitem  name = "Rdir_int"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I8"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Z_A"  />
+        <nitem  name = "Ldir_int"  />
+        </nets>
+    </instance>
+
+    <instance  name = "\lab2Logic/I7"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Z_B"  />
+        <nitem  name = "\lab2Logic/N_8"  />
+        </nets>
+    </instance>
+
+</unit>
+
+</library>
+
+</top>

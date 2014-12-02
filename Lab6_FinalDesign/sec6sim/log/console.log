@@ -1,0 +1,158 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sevenseg.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\sevenseg.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sevenSeg_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\sevenSeg_tf.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\determineNum.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\determineNum_tf.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_SM.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\Section6_SM.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/clock_counter.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\clock_counter.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_Top.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\Section6_Top.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Sec6_Top_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\sec6sim\Sec6_Top_tf.v ... Done
+vlib C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sevenseg.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: sevenSeg.
+# $root top modules: sevenSeg.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sevenSeg_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: sevenSeg_tf.
+# $root top modules: sevenSeg_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum.v, ln 16).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg_tf found in current working library.
+# Unit top modules: determineNum.
+# $root top modules: sevenSeg_tf determineNum.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg_tf found in current working library.
+# Unit top modules: determineNum_tf.
+# $root top modules: sevenSeg_tf determineNum_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_SM.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_SM.v, ln 31).
+# Parameters in case labels, will not check for overlapping labels (C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_SM.v, ln 43).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg_tf found in current working library.
+# Info: VCP2113 Module determineNum_tf found in current working library.
+# Unit top modules: Sec6_SM.
+# $root top modules: sevenSeg_tf determineNum_tf Sec6_SM.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/clock_counter.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg_tf found in current working library.
+# Info: VCP2113 Module determineNum_tf found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Unit top modules: clock_counter.
+# $root top modules: sevenSeg_tf determineNum_tf Sec6_SM clock_counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_Top.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg_tf found in current working library.
+# Info: VCP2113 Module determineNum_tf found in current working library.
+# Unit top modules: Sec6_Top.
+# $root top modules: sevenSeg_tf determineNum_tf Sec6_Top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Sec6_Top_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP1038 sec6sim/Sec6_Top_tf.v : (15, 24): Unknown measurement unit for time precision. Use one of the following: s, ms, us, ns, ps, fs.
+# Info: VCP2113 Module Sec6_Top found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+module Sec6_Top_tf
+# Cannot select this module.
+vsim +access +r Sec6_Top_tf -PL pmi_work -L ovi_machxo2
+# Error: vsim: cannot select specified top-level
+add wave *
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sec6sim.ado" line 40)
+#     invoked from within
+# "source {C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sec6sim.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""

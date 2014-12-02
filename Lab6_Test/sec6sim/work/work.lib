@@ -1,0 +1,76 @@
+timestamp=1401929867622
+
+[$root]
+A/$root=22|""|0|1*14314
+BinI32/$root=3*7620
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[ADCinterface]
+A/ADCinterface=22|./../../section6_TestFinalDesign/source/ADC_module.v|4|1*9313
+BinI32/ADCinterface=3*6541
+R=./../../section6_TestFinalDesign/source/ADC_module.v|4
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Sec6_SM]
+A/Sec6_SM=22|./../../section6_TestFinalDesign/source/Section6_SM.v|1|1*4521
+BinI32/Sec6_SM=3*3166
+R=./../../section6_TestFinalDesign/source/Section6_SM.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Sec6_Top]
+A/Sec6_Top=22|./../../section6_TestFinalDesign/source/Section6_Top.v|1|1*11378
+BinI32/Sec6_Top=3*7489
+R=./../../section6_TestFinalDesign/source/Section6_Top.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Sec6_Top_tf]
+A/Sec6_Top_tf=22|./../../Sec6_Top_tf.v|18|1*14704
+BinI32/Sec6_Top_tf=3*7748
+R=./../../Sec6_Top_tf.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[clock_counter]
+A/clock_counter=22|./../../section6_TestFinalDesign/source/clock_counter.v|1|1*7529
+BinI32/clock_counter=3*5756
+R=./../../section6_TestFinalDesign/source/clock_counter.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[determineNum]
+A/determineNum=22|./../../section6_TestFinalDesign/source/determineNum.v|1|1*1955
+BinI32/determineNum=3*1214
+R=./../../section6_TestFinalDesign/source/determineNum.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[sevenSeg]
+A/sevenSeg=22|./../../section6_TestFinalDesign/source/sevenseg.v|1|1*390
+BinI32/sevenSeg=3*128
+R=./../../section6_TestFinalDesign/source/sevenseg.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/Sec6_Top_tf.v=0*10664*11272
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/ADC_module.v=0*7134*7773
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v=0*3775*4543
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_Top.v=0*9002*9771
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/clock_counter.v=0*5497*6091
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/determineNum.v=0*2068*2725
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/sevenseg.v=0*347*984
+LastVerilogToplevel=Sec6_Top_tf
+ModifyID=109
+Version=73
+
+[~MFT]
+0=27|0work.mgf|11272|0
+1=19|1work.mgf|14704|2500
+3=19|3work.mgf|7748|768
+
+[~U]
+$root=12|0*10309|
+ADCinterface=12|0*6860||0x10
+Sec6_SM=12|0*3461||0x10
+Sec6_Top=12|0*8523||0x10
+Sec6_Top_tf=12|0*10539||0x10
+clock_counter=12|0*5278||0x10
+determineNum=12|0*1684||0x10
+sevenSeg=12|0*166||0x10
+

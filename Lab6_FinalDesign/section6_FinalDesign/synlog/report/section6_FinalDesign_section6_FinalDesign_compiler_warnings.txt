@@ -1,0 +1,5 @@
+@W: CG133 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\Section6_SM.v":12:11:12:17|No assignment to num_int
+@W: CL159 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\determineNum.v":4:7:4:13|Input reset_n is unused
+@W: CL190 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\source\clock_counter.v":11:2:11:7|Optimizing register bit count[15] to a constant 0
+@W: CL260 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\source\clock_counter.v":11:2:11:7|Pruning register bit 15 of count[15:0] 
+

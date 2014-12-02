@@ -1,0 +1,257 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>      Lattice Mapping Report File for Design Module 'section3_schematic'
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial
+     section3_section3.ngd -o section3_section3_map.ncd -pr
+     section3_section3.prf -mp section3_section3.mrp
+     C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3.lpf -c 0
+     -gui
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HCTQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.1.0.96
+Mapped on:  05/07/14  14:52:58
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:      0 out of  7209 (0%)
+      PFU registers:            0 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        16 out of  3432 (0%)
+      SLICEs as Logic/ROM:     16 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:         31 out of  6864 (0%)
+      Number of logic LUTs:       31
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:      0 (0 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 12 + 4(JTAG) out of 115 (14%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  0
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+
+   Top 10 highest fanout non-clock nets:
+     Net A_c: 22 loads
+     Net B_c: 22 loads
+     Net D_c: 22 loads
+     Net C_c: 21 loads
+     Net SegA_c: 1 loads
+     Net SegB_c: 1 loads
+     Net SegC_c: 1 loads
+     Net SegD_c: 1 loads
+     Net SegE_c: 1 loads
+     Net SegF_c: 1 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| A                   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegG                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegF                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegE                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegD                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegC                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegB                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SegA                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B                   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| C                   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| D                   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block i30 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block i29 undriven or does not drive anything - clipped.
+Signal LED_c was merged into signal D_c
+Signal N_45 was merged into signal A_c
+Signal N_39 was merged into signal A_c
+Signal N_43 was merged into signal B_c
+Signal N_46 was merged into signal C_c
+Signal N_35 was merged into signal D_c
+Signal N_42 was merged into signal N_43
+Signal N_44 was merged into signal N_46
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal GND_net undriven or does not drive anything - clipped.
+Block I14 was optimized away.
+Block I17 was optimized away.
+Block I40 was optimized away.
+Block I39 was optimized away.
+Block I38 was optimized away.
+Block I37 was optimized away.
+Block I16 was optimized away.
+Block I15 was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 59 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor
+     Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

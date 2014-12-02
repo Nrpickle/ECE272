@@ -1,0 +1,28 @@
+Active-HDL 9.3.2744.4995  2014-05-28 15:12:14
+
+Elaboration top modules:
+Verilog Module                Section5_Top_tf
+
+
+-----------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version         | Compilation Options
+-----------------------------------------------------------------------------------------------
+Section5_Top_tf         | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Section5_Top            | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+OSCH                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+clock_counter           | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Sec5_SM                 | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------
+ovi_machxo2             | LATTICE Diamond 3.1, MACHXO2 VERILOG LIBRARY
+work                    | None
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r Section5_Top_tf -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

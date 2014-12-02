@@ -1,0 +1,31 @@
+Active-HDL 9.3.2744.4995  2014-06-04 17:57:47
+
+Elaboration top modules:
+Verilog Module                Sec6_Top_tf
+
+
+-----------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version         | Compilation Options
+-----------------------------------------------------------------------------------------------
+Sec6_Top_tf             | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Sec6_Top                | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+OSCH                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+ADCinterface            | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+clock_counter           | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Sec6_SM                 | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+determineNum            | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+sevenSeg                | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------
+ovi_machxo2             | LATTICE Diamond 3.1, MACHXO2 VERILOG LIBRARY
+work                    | None
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r Sec6_Top_tf -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

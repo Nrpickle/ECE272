@@ -1,0 +1,1 @@
+ -u "C:\lscc\diamond\3.1_x64\active-hdl\bin/systf.dll" -v2k5  "C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3_schematic_tf.v"  -cs  -g 5  -r -li "C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3_simulation\compile\section3_simulation.epr" -p "C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3_simulation\work" 

@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+sec5sim=.\sec5sim\sec5sim.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+sec5sim=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\Section5_SM.v=-1
+/..\..\clock_counter.v=-1
+/..\..\Section5_Top.v=-1
+/..\..\Section5_Top_tf.v=-1
+[Files.Data]
+.\..\Section5_SM.v=Verilog Source Code
+.\..\clock_counter.v=Verilog Source Code
+.\..\Section5_Top.v=Verilog Source Code
+.\..\Section5_Top_tf.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

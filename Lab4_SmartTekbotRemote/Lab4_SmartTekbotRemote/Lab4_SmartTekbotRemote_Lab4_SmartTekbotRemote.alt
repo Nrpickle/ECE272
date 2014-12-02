@@ -1,0 +1,17 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed May 14 14:59:06 2014 *
+NOTE DESIGN NAME: Lolhi *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS AnalogRDir : 14 : in *
+NOTE PINS AnalogLDir : 13 : in *
+NOTE PINS C : 3 : in *
+NOTE PINS B : 2 : in *
+NOTE PINS A : 1 : in *
+NOTE PINS Rdir : 119 : out *
+NOTE PINS Ren : 120 : out *
+NOTE PINS Ldir : 115 : out *
+NOTE PINS Len : 117 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

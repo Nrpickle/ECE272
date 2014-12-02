@@ -1,0 +1,13 @@
+-- all messages logged in file synthesis.log
+INFO:                                                           
+INFO: ##########################################################
+INFO: ### Lattice Family : MachXO2A
+INFO: ### Device  : LCMXO2-7000HE
+INFO: ### Package : TQFP144
+INFO: ### Speed   : 4
+INFO: ##########################################################
+INFO:                                                           
+INFO: fix_gated_clocks = 1
+-- Technology check ok...
+Software Tool error
+Please contact Lattice Semiconductor Corporation

@@ -1,0 +1,81 @@
+# Design Explorer: Shortcut to "C:\lscc\diamond\3.1_x64\bin\nt64\Lab2_TekbotRemote\Lab2_TekbotRemote_simulation\Lab2_TekbotRemote_simulation.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab2_TekbotRemote\Lab2_TekbotRemote\Lab2_TekbotRemote_schematic.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab2_TekbotRemote\Lab2_TekbotRemote_schematic_tf.v ... Done
+vlib C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_simulation/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: Lab2_TekbotRemote_schematic.
+# $root top modules: Lab2_TekbotRemote_schematic.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Lab2_TekbotRemote_schematic found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Lab2_TekbotRemote_schematic_tf.
+# $root top modules: Lab2_TekbotRemote_schematic_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module Lab2_TekbotRemote_schematic_tf
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Lab2_TekbotRemote_schematic' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r Lab2_TekbotRemote_schematic_tf -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Lab2_TekbotRemote_schematic' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.3 [s]
+# SLP: Finished : 2.3 [s]
+# SLP: 13 (92.86%) primitives and 1 (7.14%) other processes in SLP
+# SLP: 64 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 2.9 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5784 kB (elbread=1023 elab2=4615 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\lscc\diamond\3.1_x64\bin\nt64\Lab2_TekbotRemote\Lab2_TekbotRemote_simulation\src\wave.asdb
+#  9:30 PM, Tuesday, April 22, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: Lab2_TekbotRemote_schematic_tf (Lab2_TekbotRemote_schematic_tf)
+add wave *
+# 7 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_simulation/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped

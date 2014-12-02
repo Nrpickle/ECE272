@@ -1,0 +1,36 @@
+-a "MachXO2"
+-d LCMXO2-7000HE
+-t TQFP144
+-s 4
+-frequency 200
+-optimization_goal Balanced
+-bram_utilization 100
+-ramstyle Auto
+-romstyle auto
+-use_carry_chain 1
+-carry_chain_length 0
+-force_gsr Auto
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+-mux_style Auto
+-max_fanout 1000
+-fsm_encoding_style Auto
+-twr_paths 3
+-use_io_insertion 1
+-resolve_mixed_drivers 0
+-use_io_reg 1
+
+
+-lpf 0
+-p "C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM"
+-ver "C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/clock_counter.v"
+"C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Section5_SM.v"
+"C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Section5_Top.v"
+-top Section5_Top
+
+
+-p "C:/lscc/diamond/3.1_x64/ispfpga/xo2c00/data" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM"
+
+-ngd "Lab4_SmartTekbotRemote_Lab4_SmartTekbotRemote.ngd"
+

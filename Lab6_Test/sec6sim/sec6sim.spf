@@ -1,0 +1,13 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="sec6sim" simType="Active-HDL">
+    <Source worklib="work" path="section6_TestFinalDesign/source/sevenseg.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="section6_TestFinalDesign/source/determineNum.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="section6_TestFinalDesign/source/Section6_SM.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="section6_TestFinalDesign/source/clock_counter.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="section6_TestFinalDesign/source/ADC_module.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="section6_TestFinalDesign/source/Section6_Top.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="Sec6_Top_tf.v" type="VERILOG" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="Sec6_Top_tf"/>
+</BaliSimProject>

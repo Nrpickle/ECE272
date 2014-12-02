@@ -1,0 +1,31 @@
+Active-HDL 9.3.2744.4995  2014-05-07 16:01:33
+
+Elaboration top modules:
+Verilog Module                section3_schematic_tf
+
+
+-----------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version         | Compilation Options
+-----------------------------------------------------------------------------------------------
+section3_schematic_tf   | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+section3_schematic      | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+AND2                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+OR3                     | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+AND3                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+OR4                     | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+AND4                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+INV                     | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------
+ovi_machxo2             | LATTICE Diamond 3.1, MACHXO2 VERILOG LIBRARY
+work                    | None
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r section3_schematic_tf -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell section3_schematic
+   Instance path: section3_schematic
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00        100.0
+                                  LUT4	      31.00        100.0
+                                 IOBUF	         12        100.0

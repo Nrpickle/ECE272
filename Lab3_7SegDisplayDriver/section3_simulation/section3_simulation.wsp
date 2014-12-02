@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\section3\section3_schematic.v]
+FileTimeLow=30370330
+Status=Compiled
+
+[COMPILESTATUS|.\..\section3_schematic_tf.v]
+FileTimeLow=30370330
+Status=Compiled
+
+[CACHEDOC|Aldec.Project.Generic.7|.\section3_simulation.adf|]
+Path=/section3_schematic_tf
+
+[General]
+CurrentVersion=103
+
+[Gui config]
+RunFor=100 ns
+

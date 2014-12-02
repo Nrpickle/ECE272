@@ -1,0 +1,17 @@
+i<>.\..\sevenseg.v
+i<>.\..\sevenSeg_tf.v
+i<>.\..\determineNum.v
+i<>.\..\determineNum_tf.v
+i<>.\..\Section6_SM.v
+i<>.\..\section6_FinalDesign\source\clock_counter.v
+i<>.\..\Section6_Top.v
+i<>.\..\Sec6_Top_tf.v
+i<>.\..\interpretADC.v
+i<>.\sevenseg.v
+i<>.\sevenSeg_tf.v
+i<>.\determineNum.v
+i<>.\determineNum_tf.v
+i<>.\Section6_SM.v
+i<>.\clock_counter.v
+i<>.\Section6_Top.v
+i<>.\Sec6_Top_tf.v

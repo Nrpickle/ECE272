@@ -1,0 +1,5 @@
+#Start recording tcl command: 5/12/2014 22:07:33
+#Project Location: C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver; Project name: section3
+prj_project open "C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3.ldf"
+prj_project close
+#Stop recording: 5/12/2014 22:58:40

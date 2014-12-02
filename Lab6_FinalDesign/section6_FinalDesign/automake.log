@@ -1,0 +1,100 @@
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign" -path "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign"  "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign/section6_FinalDesign_section6_FinalDesign.edi" "section6_FinalDesign_section6_FinalDesign.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.1.0.96
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="D4"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="D3"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="D2"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="D1"  />
+Writing the design to section6_FinalDesign_section6_FinalDesign.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.1_x64/ispfpga/xo2c00/data"  -p "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign" -p "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign"  "section6_FinalDesign_section6_FinalDesign.ngo" "section6_FinalDesign_section6_FinalDesign.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.1.0.96
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'section6_FinalDesign_section6_FinalDesign.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un40_sum_cry_4_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un40_sum_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un38_sum_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un38_sum_cry_2_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un47_sum_cry_4_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un47_sum_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un47_sum_cry_1_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un54_sum_cry_4_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un54_sum_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un54_sum_cry_1_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un61_sum_cry_4_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un61_sum_cry_4_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un61_sum_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un61_sum_cry_1_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un53_sum_cry_10_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un53_sum_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/un1_dispNum_2_cry_2_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/un1_dispNum_2_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/un1_dispNum_2_cry_1_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un60_sum_cry_10_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un60_sum_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un60_sum_cry_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un67_sum_cry_10_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un67_sum_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un67_sum_cry_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_10_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_10_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_8_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_8_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_6_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_6_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_4_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_4_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un74_sum_cry_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un45_sum_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un45_sum_cry_2_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un45_sum_cry_2_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un52_sum_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un52_sum_cry_2_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un52_sum_cry_2_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_7_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_5_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_5_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_2_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="det/mult1_un59_sum_cry_2_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="counter_1/count_1_cry_13_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="counter_1/count_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="counter_1/count_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="SEDSTDBY"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="53"  />
+
+Design Results:
+    158 blocks expanded
+complete the first expansion
+Writing 'section6_FinalDesign_section6_FinalDesign.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+

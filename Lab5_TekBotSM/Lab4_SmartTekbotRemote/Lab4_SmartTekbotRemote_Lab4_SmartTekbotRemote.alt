@@ -1,0 +1,15 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed May 28 15:17:46 2014 *
+NOTE DESIGN NAME: Section5_Top *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outputs[2] : 112 : out *
+NOTE PINS outputs[3] : 111 : out *
+NOTE PINS outputs[1] : 109 : out *
+NOTE PINS outputs[0] : 110 : out *
+NOTE PINS DigitalLDir : 128 : in *
+NOTE PINS DigitalRDir : 127 : in *
+NOTE PINS reset_n : 2 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

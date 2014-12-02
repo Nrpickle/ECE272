@@ -1,0 +1,1 @@
+run_tcl -fg section6_TestFinalDesign_section6_TestFinalDesign_synplify.tcl

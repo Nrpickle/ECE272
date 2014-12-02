@@ -1,0 +1,25 @@
+-- all messages logged in file synthesis.log
+INFO:                                                           
+INFO: ##########################################################
+INFO: ### Lattice Family : MachXO2A
+INFO: ### Device  : LCMXO2-7000HE
+INFO: ### Package : TQFP144
+INFO: ### Speed   : 5
+INFO: ##########################################################
+INFO:                                                           
+INFO: fix_gated_clocks = 1
+-- Technology check ok...
+c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v(3): INFO: compiling module Lab2_TekbotRemote_schematic (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(936): INFO: compiling module OR3 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): INFO: compiling module AND2 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(930): INFO: compiling module OR2 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): INFO: compiling module INV (VERI-1018)
+WARNING: Net Rd has following drivers : 
+
+	 instance I21 of type 
+
+	 instance I20 of type 
+
+
+
+c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v(9): ERROR: net Rd is constantly driven from multiple places (VDB-1000)

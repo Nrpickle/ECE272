@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell Lab2_TekbotRemote_schematic
+   Instance path: Lab2_TekbotRemote_schematic
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        100.0
+                                  LUT4	       4.00        100.0
+                                 IOBUF	          7        100.0

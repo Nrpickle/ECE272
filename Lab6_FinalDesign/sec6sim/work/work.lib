@@ -1,0 +1,76 @@
+timestamp=1401901598766
+
+[$root]
+A/$root=22|""|0|1*12111
+BinI32/$root=3*7706
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Sec6_SM]
+A/Sec6_SM=22|./../Section6_SM.v|1|1*7913
+BinI32/Sec6_SM=3*4466
+R=./../Section6_SM.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Sec6_Top]
+A/Sec6_Top=22|./../Section6_Top.v|1|1*12533
+BinI32/Sec6_Top=3*7834
+R=./../Section6_Top.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[clock_counter]
+A/clock_counter=22|./../clock_counter.v|1|1*10851
+BinI32/clock_counter=3*7051
+R=./../clock_counter.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[determineNum]
+A/determineNum=22|./../determineNum.v|1|1*3478
+BinI32/determineNum=3*1651
+R=./../determineNum.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[determineNum_tf]
+A/determineNum_tf=22|./../determineNum_tf.v|18|1*5958
+BinI32/determineNum_tf=3*3604
+R=./../determineNum_tf.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[sevenSeg]
+A/sevenSeg=22|./../sevenseg.v|1|1*390
+BinI32/sevenSeg=3*128
+R=./../sevenseg.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[sevenSeg_tf]
+A/sevenSeg_tf=22|./../sevenSeg_tf.v|18|1*1869
+BinI32/sevenSeg_tf=3*1214
+R=./../sevenSeg_tf.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_SM.v=0*6407*7142
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/Section6_Top.v=0*9739*10427
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/clock_counter.v=0*8079*8640
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum.v=0*3308*3932
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/determineNum_tf.v=0*4776*5387
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sevenSeg_tf.v=0*1743*2238
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sevenseg.v=0*347*951
+LastVerilogToplevel=Sec6_Top
+ModifyID=109
+Version=73
+
+[~MFT]
+0=27|0work.mgf|10427|0
+1=19|1work.mgf|12533|2452
+3=19|3work.mgf|7834|768
+
+[~U]
+$root=12|0*9146|
+Sec6_SM=12|0*6093||0x10
+Sec6_Top=12|0*9376||0x10
+clock_counter=12|0*7860||0x10
+determineNum=12|0*2924||0x10
+determineNum_tf=12|0*4635||0x10
+sevenSeg=12|0*166||0x10
+sevenSeg_tf=12|0*1618||0x10
+

@@ -1,0 +1,1 @@
+ -erf "C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\sec6sim\compile\sec6sim.erf" -work work -lc C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/sec6sim/library.cfg -fl C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/sec6sim/projlib.cfg -o C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/sec6sim/compile -l "work"   -dbg

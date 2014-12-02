@@ -1,0 +1,71 @@
+#--  Synopsys, Inc.
+#--  Version I-2013.09L 
+#--  Project file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\run_options.txt
+#--  Written on Thu Jun 05 23:21:46 2014
+
+
+#project files
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/determineNum.v"
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v"
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_Top.v"
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/sevenseg.v"
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/clock_counter.v"
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/ADC_module.v"
+add_file -verilog "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/interpretADC.v"
+
+
+
+#implementation: "section6_TestFinalDesign"
+impl -add section6_TestFinalDesign -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test}
+
+#device options
+set_option -technology MACHXO2
+set_option -part LCMXO2_7000HE
+set_option -package TG144C
+set_option -speed_grade -4
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "Sec6_Top"
+
+# mapper_options
+set_option -frequency 1
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 1
+set_option -RWCheckOnRam 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./section6_TestFinalDesign_section6_TestFinalDesign.edi"
+
+#set log file 
+set_option log_file "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/section6_TestFinalDesign_section6_TestFinalDesign.srf" 
+impl -active "section6_TestFinalDesign"

@@ -1,0 +1,31 @@
+---------------------------------------------------
+Report for cell Section5_Top
+   Instance path: Section5_Top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00        100.0
+                                  LUT4	      15.00        100.0
+                                 IOBUF	          7        100.0
+                                PFUREG	         27        100.0
+                                RIPPLE	         10        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         clock_counter	          1        75.0
+                               Sec5_SM	          1        22.2
+---------------------------------------------------
+Report for cell clock_counter
+   Instance path: Section5_Top/counter_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.50        75.0
+                                  LUT4	       8.00        53.3
+                                PFUREG	         20        74.1
+                                RIPPLE	         10        100.0
+---------------------------------------------------
+Report for cell Sec5_SM
+   Instance path: Section5_Top/FSM_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.00        22.2
+                                  LUT4	       6.00        40.0
+                                PFUREG	          7        25.9

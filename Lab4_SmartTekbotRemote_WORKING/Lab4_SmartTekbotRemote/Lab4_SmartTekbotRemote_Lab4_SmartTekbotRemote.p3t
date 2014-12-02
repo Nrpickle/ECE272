@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Lab4_SmartTekbotRemote_Lab4_SmartTekbotRemote.log"
+-o "Lab4_SmartTekbotRemote_Lab4_SmartTekbotRemote.csv"
+-pr "Lab4_SmartTekbotRemote_Lab4_SmartTekbotRemote.prf"

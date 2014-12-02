@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BaliMessageLog>
+    <Milestone name="Export">
+        <Task name="Jedecgen">
+            <Engine name="bitgen"/>
+        </Task>
+    </Milestone>
+    <Milestone name="Synthesis">
+        <Task name="Lattice_Synthesis">
+            <Engine name="gen_lattice_prj"/>
+            <Engine name="synthesis">
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab3_7segdisplaydriver/section3/section3_schematic.v(3): compiling module section3_schematic. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab3_7segdisplaydriver/section3/section3_schematic.v(3): </Dynamic>
+                    <Dynamic>section3_schematic</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab3_7segdisplaydriver/section3/section3_schematic.v</Navigation>
+                    <Navigation>3</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): compiling module AND2. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): </Dynamic>
+                    <Dynamic>AND2</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>43</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(936): compiling module OR3. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(936): </Dynamic>
+                    <Dynamic>OR3</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>936</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(49): compiling module AND3. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(49): </Dynamic>
+                    <Dynamic>AND3</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>49</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(943): compiling module OR4. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(943): </Dynamic>
+                    <Dynamic>OR4</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>943</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(56): compiling module AND4. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(56): </Dynamic>
+                    <Dynamic>AND4</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>56</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): compiling module INV. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): </Dynamic>
+                    <Dynamic>INV</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>563</Navigation>
+                </Message>
+                <Message>
+                    <ID>35001609</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - No .lpf file will be written because the -lpf option is not used or is set to zero.</Text>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'GND_net' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>GND_net</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1163101</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - DRC complete with 1 warnings</Text>
+                    <Dynamic>1</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+    <Milestone name="Map">
+        <Task name="Map">
+            <Engine name="map"/>
+        </Task>
+    </Milestone>
+    <Milestone name="PAR">
+        <Task name="PAR">
+            <Engine name="mpartrce"/>
+        </Task>
+    </Milestone>
+</BaliMessageLog>

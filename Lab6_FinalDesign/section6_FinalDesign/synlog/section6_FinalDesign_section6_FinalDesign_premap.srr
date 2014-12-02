@@ -1,0 +1,49 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 800R, Built Nov 18 2013 10:58:25
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign_scck.rpt 
+Printing clock  summary report in "C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_FinalDesign\section6_FinalDesign\section6_FinalDesign_section6_FinalDesign_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 117MB)
+
+@N: MF236 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":19:37:19:49|Generating a type div divider 
+@N: MF236 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":18:36:18:47|Generating a type div divider 
+@N: MF236 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":18:20:18:33|Generating a type div divider 
+@N: MF237 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":17:20:17:32|Generating a type rem remainder 
+syn_allowed_resources : blockrams=26  set on top level netlist Sec6_Top
+
+
+Clock Summary
+**************
+
+Start                                 Requested     Requested     Clock                                          Clock              
+Clock                                 Frequency     Period        Type                                           Group              
+------------------------------------------------------------------------------------------------------------------------------------
+Sec6_Top|clk_inferred_clock           1.0 MHz       1000.000      inferred                                       Inferred_clkgroup_0
+clock_counter|clk_o_derived_clock     1.0 MHz       1000.000      derived (from Sec6_Top|clk_inferred_clock)     Inferred_clkgroup_0
+====================================================================================================================================
+
+@W: MT529 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\section6_finaldesign\source\clock_counter.v":11:2:11:7|Found inferred clock Sec6_Top|clk_inferred_clock which controls 16 sequential elements including counter_1.count[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 79MB peak: 143MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Wed Jun 04 10:05:02 2014
+
+###########################################################]

@@ -1,0 +1,38 @@
+----------------------------------------------------------------------
+Report for cell Section5_Top.<NoName>
+Register bits:  27 of 5148 (0.524%)
+I/O cells:      7
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10          100.0
+                            FD1S3AX         7          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX        19          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4        14          100.0
+                                 OB         4          100.0
+                               OSCH         1          100.0
+SUB MODULES
+                            Sec5_SM         1
+                      clock_counter         1
+                              TOTAL        62
+----------------------------------------------------------------------
+Report for cell clock_counter.v1
+Instance Path : counter_1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10          100.0
+                            FD1S3AX         1           14.3
+                            FD1S3IX        19          100.0
+                               LUT4         8           57.1
+                              TOTAL        38
+----------------------------------------------------------------------
+Report for cell Sec5_SM.v1
+Instance Path : FSM_1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         6           85.7
+                            FD1S3AY         1          100.0
+                               LUT4         6           42.9
+                              TOTAL        13

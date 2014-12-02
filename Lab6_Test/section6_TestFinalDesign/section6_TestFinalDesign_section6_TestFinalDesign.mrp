@@ -1,0 +1,535 @@
+           Lattice Mapping Report File for Design Module 'Sec6_Top'
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     section6_TestFinalDesign_section6_TestFinalDesign.ngd -o
+     section6_TestFinalDesign_section6_TestFinalDesign_map.ncd -pr
+     section6_TestFinalDesign_section6_TestFinalDesign.prf -mp
+     section6_TestFinalDesign_section6_TestFinalDesign.mrp
+     C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign.lpf -c
+     0 -gui
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.1.0.96
+Mapped on:  06/05/14  18:05:46
+
+Design Summary
+--------------
+
+   Number of registers:     25 out of  7209 (0%)
+      PFU registers:           25 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:       166 out of  3432 (5%)
+      SLICEs as Logic/ROM:    166 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:        128 out of  3432 (4%)
+   Number of LUT4s:        332 out of  6864 (5%)
+      Number of logic LUTs:       76
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:    128 (256 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net clk_c: 17 loads, 17 rising, 0 falling (Driver: osc_int )
+
+                                    Page 1
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+Design Summary (cont)
+---------------------
+   Number of Clock Enables:  1
+     Net FSM_1/state_RNO[1]: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net reset_n_c merged into GSR:  25
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net det.un13_dispNum.if_generate_plus.mult1_un40_sum_axb_3: 16 loads
+     Net FSM_1.state[0]: 16 loads
+     Net det.un27_dispNum.if_generate_minus.mult1_un46_sum_axb_4: 15 loads
+     Net det.un27_dispNum.if_generate_minus.mult1_un53_sum_i: 15 loads
+     Net det.un13_dispNum.if_generate_plus.mult1_un47_sum_i: 13 loads
+     Net det.un8_dispNum.if_generate_plus.mult1_un47_sum_i: 13 loads
+     Net det.un8_dispNum.if_generate_plus.mult1_un54_sum_i: 12 loads
+     Net det.un8_dispNum.if_generate_plus.mult1_un68_sum_i: 11 loads
+     Net FSM_1.state[1]: 11 loads
+     Net det/mult1_un60_sum_cry_10_0_S1: 10 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Using local reset signal 'reset_n_c' to infer global GSR net.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| sel[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[0]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| WR_n                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RD_n                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CS_n                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| digit               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| segments[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| segments[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| segments[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| segments[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| segments[2]         | OUTPUT    | LVCMOS25  |            |
+
+                                    Page 2
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| segments[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| segments[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sel[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sel[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| reset_n             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[7]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[6]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[5]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[4]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[3]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[2]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADCData[1]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block FSM_1/VCC undriven or does not drive anything - clipped.
+Block FSM_1/GND undriven or does not drive anything - clipped.
+Signal reset_n_c_i was merged into signal reset_n_c
+Signal counter_1/GND undriven or does not drive anything - clipped.
+Signal int/GND undriven or does not drive anything - clipped.
+Signal interp/GND undriven or does not drive anything - clipped.
+Signal det/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal SEDSTDBY undriven or does not drive anything - clipped.
+Signal counter_1/count_2_cry_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal counter_1/count_2_cry_0_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal counter_1/count_2_cry_0_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal counter_1/N_1 undriven or does not drive anything - clipped.
+Signal int/count_2_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal int/count_2_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal int/N_1 undriven or does not drive anything - clipped.
+Signal int/count_2_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal int/count_2_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal interp/mult1_un68_sum_cry_2_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un68_sum_cry_2_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_1 undriven or does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+Removed logic (cont)
+--------------------
+Signal interp/mult1_un68_sum_cry_7_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal interp/mult1_un61_sum_cry_2_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un61_sum_cry_2_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_2 undriven or does not drive anything - clipped.
+Signal interp/mult1_un61_sum_cry_7_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal interp/mult1_un54_sum_cry_2_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un54_sum_cry_2_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_3 undriven or does not drive anything - clipped.
+Signal interp/mult1_un54_sum_cry_7_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal interp/mult1_un47_sum_cry_2_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un47_sum_cry_2_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_4 undriven or does not drive anything - clipped.
+Signal interp/mult1_un47_sum_cry_7_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal interp/mult1_un103_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un103_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_5 undriven or does not drive anything - clipped.
+Signal interp/mult1_un103_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un96_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un96_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_6 undriven or does not drive anything - clipped.
+Signal interp/mult1_un96_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un89_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un89_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_7 undriven or does not drive anything - clipped.
+Signal interp/mult1_un89_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un82_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un82_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_8 undriven or does not drive anything - clipped.
+Signal interp/mult1_un82_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un75_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un75_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_9 undriven or does not drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+Removed logic (cont)
+--------------------
+Signal interp/mult1_un75_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_10 undriven or does not drive anything - clipped.
+Signal interp/mult1_un117_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un117_sum_cry_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un110_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un110_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_11 undriven or does not drive anything - clipped.
+Signal interp/mult1_un110_sum_cry_6_0_COUT undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un40_sum_cry_2_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal interp/mult1_un40_sum_cry_2_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_12 undriven or does not drive anything - clipped.
+Signal interp/mult1_un40_sum_cry_7_0_COUT_0 undriven or does not drive anything
+     - clipped.
+Signal interp/voltage_1_0_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/voltage_1_0_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal interp/N_13 undriven or does not drive anything - clipped.
+Signal interp/voltage_1_0_cry_8_0_S1 undriven or does not drive anything -
+     clipped.
+Signal interp/voltage_1_0_cry_8_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un47_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un47_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_1 undriven or does not drive anything - clipped.
+Signal det/mult1_un47_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_2 undriven or does not drive anything - clipped.
+Signal det/mult1_un74_sum_cry_4_0_S1 undriven or does not drive anything -
+     clipped.
+
+                                    Page 5
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+Removed logic (cont)
+--------------------
+Signal det/mult1_un74_sum_cry_4_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_6_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_6_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_8_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_8_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_10_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un74_sum_cry_10_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un67_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un67_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_3 undriven or does not drive anything - clipped.
+Signal det/mult1_un67_sum_cry_10_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un60_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un60_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_4 undriven or does not drive anything - clipped.
+Signal det/mult1_un60_sum_cry_10_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un53_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un53_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_5 undriven or does not drive anything - clipped.
+Signal det/mult1_un53_sum_cry_10_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/un1_dispNum_2_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/un1_dispNum_2_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_6 undriven or does not drive anything - clipped.
+Signal det/un1_dispNum_2_cry_2_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_7 undriven or does not drive anything - clipped.
+Signal det/mult1_un68_sum_cry_4_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_4_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un61_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un61_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_8 undriven or does not drive anything - clipped.
+
+                                    Page 6
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+Removed logic (cont)
+--------------------
+Signal det/mult1_un61_sum_cry_4_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un54_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un54_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_9 undriven or does not drive anything - clipped.
+Signal det/mult1_un54_sum_cry_4_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un47_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un47_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_10 undriven or does not drive anything - clipped.
+Signal det/mult1_un47_sum_cry_4_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_11 undriven or does not drive anything - clipped.
+Signal det/mult1_un68_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un68_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un61_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un61_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_12 undriven or does not drive anything - clipped.
+Signal det/mult1_un61_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un54_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un54_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_13 undriven or does not drive anything - clipped.
+Signal det/mult1_un54_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un46_sum_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un46_sum_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_16 undriven or does not drive anything - clipped.
+Signal det/mult1_un46_sum_cry_10_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un40_sum_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+
+                                    Page 7
+
+
+
+
+Design:  Sec6_Top                                      Date:  06/05/14  18:05:46
+
+Removed logic (cont)
+--------------------
+Signal det/mult1_un40_sum_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_17 undriven or does not drive anything - clipped.
+Signal det/mult1_un40_sum_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un40_sum_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal det/mult1_un40_sum_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal det/N_18 undriven or does not drive anything - clipped.
+Signal det/mult1_un40_sum_cry_4_0_COUT undriven or does not drive anything -
+     clipped.
+Block reset_n_pad_RNI49NB was optimized away.
+Block counter_1/GND was optimized away.
+Block int/GND was optimized away.
+Block interp/GND was optimized away.
+Block det/GND was optimized away.
+
+Memory Usage
+------------
+
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                osc_int
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     clk_c
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: osc_int
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'reset_n_c' of the design has been inferred as Global
+        Set Reset (GSR). The reset signal used for GSR control is 'reset_n_c'.
+
+GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 61 MB
+
+                                    Page 8
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor
+     Corporation,  All rights reserved.

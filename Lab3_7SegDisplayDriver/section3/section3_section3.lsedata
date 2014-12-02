@@ -1,0 +1,685 @@
+<top name = "section3_schematic"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "section3_schematic">
+
+    <!--
+        Top Level Pins: 12
+    -->
+
+    <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "LED"  direction = "out"  />
+        <pitem  name = "SegA"  direction = "out"  />
+        <pitem  name = "SegB"  direction = "out"  />
+        <pitem  name = "SegC"  direction = "out"  />
+        <pitem  name = "SegD"  direction = "out"  />
+        <pitem  name = "SegE"  direction = "out"  />
+        <pitem  name = "SegF"  direction = "out"  />
+        <pitem  name = "SegG"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 40
+    -->
+
+    <instance  name = "I23"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_21"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I36"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_29"  />
+        <nitem  name = "N_30"  />
+        <nitem  name = "N_28"  />
+        <nitem  name = "SegG"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I24"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_22"  />
+        <nitem  name = "N_20"  />
+        <nitem  name = "N_21"  />
+        <nitem  name = "SegE"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I18"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_3"  />
+        <nitem  name = "N_1"  />
+        <nitem  name = "N_2"  />
+        <nitem  name = "SegC"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I33"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_28"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I25"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_18"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I26"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_17"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I27"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_16"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I28"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_20"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I29"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_22"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I19"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_25"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I5"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_10"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_11"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I3"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_15"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I2"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I1"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I30"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_19"  />
+        <nitem  name = "N_16"  />
+        <nitem  name = "N_17"  />
+        <nitem  name = "N_18"  />
+        <nitem  name = "SegF"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I31"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_26"  />
+        <nitem  name = "N_23"  />
+        <nitem  name = "N_24"  />
+        <nitem  name = "N_25"  />
+        <nitem  name = "SegD"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I7"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_12"  />
+        <nitem  name = "N_8"  />
+        <nitem  name = "N_9"  />
+        <nitem  name = "N_13"  />
+        <nitem  name = "SegA"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I6"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_14"  />
+        <nitem  name = "N_10"  />
+        <nitem  name = "N_11"  />
+        <nitem  name = "N_15"  />
+        <nitem  name = "SegB"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I35"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_29"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I34"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_30"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I32"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_19"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I22"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_26"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I20"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_24"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I21"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_23"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I13"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_12"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I12"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_8"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I11"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_9"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I10"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_13"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I9"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_44"  />
+        <nitem  name = "N_35"  />
+        <nitem  name = "N_14"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I8"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "B"  direction = "in"  />
+        <pitem  name = "C"  direction = "in"  />
+        <pitem  name = "D"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_45"  />
+        <nitem  name = "N_42"  />
+        <nitem  name = "N_46"  />
+        <nitem  name = "LED"  />
+        <nitem  name = "N_3"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I15"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_46"  />
+        <nitem  name = "N_44"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I16"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_43"  />
+        <nitem  name = "N_42"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I37"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "D"  />
+        <nitem  name = "N_35"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I38"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "C"  />
+        <nitem  name = "N_46"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I39"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "B"  />
+        <nitem  name = "N_43"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I40"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "A"  />
+        <nitem  name = "N_39"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I17"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_39"  />
+        <nitem  name = "N_45"  />
+        </nets>
+    </instance>
+
+    <instance  name = "I14"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A"  direction = "in"  />
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "N_35"  />
+        <nitem  name = "LED"  />
+        </nets>
+    </instance>
+
+</unit>
+
+</library>
+
+</top>

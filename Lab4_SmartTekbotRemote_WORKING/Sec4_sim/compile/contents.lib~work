@@ -1,0 +1,13 @@
+55
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../Section4_Verilog.v" 1 Lolhi
+~A 1 "./../../Section4_Verilog.v" 1 Lolhi
+~M 3 "./../../Lolhi_tf.v" 18 Lolhi_tf
+~A 1 "./../../Lolhi_tf.v" 18 Lolhi_tf
+~M 1 "./../../Section4_Verilog.v" 59 inverter_nick_yay
+~A 1 "./../../Section4_Verilog.v" 59 inverter_nick_yay
+~M 1 "./../../Section4_Verilog.v" 48 mux2
+~A 1 "./../../Section4_Verilog.v" 48 mux2
+~M 3 "./../../Lab4_SmartTekbotRemote/section2_schematic.v" 3 section2_schematic
+~A 1 "./../../Lab4_SmartTekbotRemote/section2_schematic.v" 3 section2_schematic

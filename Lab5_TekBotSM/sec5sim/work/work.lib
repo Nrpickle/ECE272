@@ -1,0 +1,52 @@
+timestamp=1401315134077
+
+[$root]
+A/$root=22|""|0|1*7383
+BinI32/$root=3*4695
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Sec5_SM]
+A/Sec5_SM=22|./../../Section5_SM.v|1|1*390
+BinI32/Sec5_SM=3*128
+R=./../../Section5_SM.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Section5_Top]
+A/Section5_Top=22|./../../Section5_Top.v|1|1*5479
+BinI32/Section5_Top=3*4560
+R=./../../Section5_Top.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Section5_Top_tf]
+A/Section5_Top_tf=22|./../../Section5_Top_tf.v|18|1*7773
+BinI32/Section5_Top_tf=3*4823
+R=./../../Section5_Top_tf.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[clock_counter]
+A/clock_counter=22|./../../clock_counter.v|1|1*3823
+BinI32/clock_counter=3*3775
+R=./../../clock_counter.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Section5_SM.v=0*653*1505
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Section5_Top.v=0*3953*4550
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Section5_Top_tf.v=0*5383*5967
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/clock_counter.v=0*2383*2917
+LastVerilogToplevel=Section5_Top_tf
+ModifyID=61
+Version=73
+
+[~MFT]
+0=15|0work.mgf|5967|0
+1=10|1work.mgf|7773|1186
+3=10|3work.mgf|4823|384
+
+[~U]
+$root=12|0*5044|
+Sec5_SM=12|0*150||0x10
+Section5_Top=12|0*3610||0x10
+Section5_Top_tf=12|0*5242||0x10
+clock_counter=12|0*2164||0x10
+

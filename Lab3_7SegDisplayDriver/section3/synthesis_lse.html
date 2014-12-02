@@ -1,0 +1,136 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.1.0.96
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Wed May 07 14:52:57 2014
+
+
+Command Line:  synthesis -f section3_section3_lattice.synproj -gui 
+
+-- all messages logged in file synthesis.log
+INFO:                                                           
+INFO: ##########################################################
+INFO: ### Lattice Family : MachXO2A
+INFO: ### Device  : LCMXO2-7000HC
+INFO: ### Package : TQFP144
+INFO: ### Speed   : 4
+INFO: ##########################################################
+INFO:                                                           
+INFO: fix_gated_clocks = 1
+-- Technology check ok...
+c:/lscc/diamond/3.1_x64/bin/nt64/lab3_7segdisplaydriver/section3/section3_schematic.v(3): INFO: compiling module section3_schematic (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): INFO: compiling module AND2 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(936): INFO: compiling module OR3 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(49): INFO: compiling module AND3 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(943): INFO: compiling module OR4 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(56): INFO: compiling module AND4 (VERI-1018)
+C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): INFO: compiling module INV (VERI-1018)
+
+
+INFO: Applying 200.000000 MHz constraint to all clocks (LSE-5000)
+
+################### Begin Area Report (section3_schematic)######################
+Number of register bits => 0 of 5148 (0 % )
+AND2 => 1
+AND3 => 12
+AND4 => 12
+GSR => 1
+IB => 4
+INV => 8
+OB => 8
+OR3 => 3
+OR4 => 4
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : N_43, loads : 14
+  Net : N_35, loads : 14
+  Net : N_45, loads : 13
+  Net : N_44, loads : 11
+  Net : N_46, loads : 11
+  Net : N_39, loads : 10
+  Net : LED_c, loads : 9
+  Net : N_42, loads : 9
+  Net : A_c, loads : 1
+  Net : B_c, loads : 1
+################### End Clock Report ##################
+
+Peak Memory Usage: 56.980  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.421  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

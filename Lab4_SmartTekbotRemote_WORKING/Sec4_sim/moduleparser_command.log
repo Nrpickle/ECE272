@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.1_x64/bin/nt64/moduleparser.exe -PROJ sec4_sim -pf C:/lscc/diamond/3.1_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg C:/lscc/diamond/3.1_x64/cae_library/vhdl_packages/vdbs -lst C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/sec4_sim/source_files.lst

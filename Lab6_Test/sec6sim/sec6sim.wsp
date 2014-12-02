@@ -1,0 +1,37 @@
+[COMPILESTATUS|.\..\section6_TestFinalDesign\source\sevenseg.v]
+FileTimeLow=30375957
+Status=Compiled
+
+[COMPILESTATUS|.\..\section6_TestFinalDesign\source\determineNum.v]
+FileTimeLow=30375804
+Status=Compiled
+
+[COMPILESTATUS|.\..\section6_TestFinalDesign\source\Section6_SM.v]
+FileTimeLow=30375654
+Status=Compiled
+
+[COMPILESTATUS|.\..\section6_TestFinalDesign\source\clock_counter.v]
+FileTimeLow=30375959
+Status=Compiled
+
+[COMPILESTATUS|.\..\section6_TestFinalDesign\source\Section6_Top.v]
+FileTimeLow=30376018
+Status=Compiled
+
+[COMPILESTATUS|.\..\Sec6_Top_tf.v]
+FileTimeLow=30376025
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sec6sim.adf|]
+Path=/Sec6_Top_tf
+
+[Gui config]
+RunFor=100 ns
+
+[COMPILESTATUS|.\..\section6_TestFinalDesign\source\ADC_module.v]
+FileTimeLow=30375961
+Status=Compiled
+

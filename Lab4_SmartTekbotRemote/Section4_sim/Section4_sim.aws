@@ -1,0 +1,14 @@
+[Version]
+Version=9.3
+[Designs]
+Section4_sim=Section4_sim.adf
+[Settings]
+Active=Section4_sim
+[Expand]
+section4_sim=0
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

@@ -1,0 +1,14 @@
+[Version]
+Version=9.3
+[Designs]
+section3_simulation=section3_simulation.adf
+[Settings]
+Active=section3_simulation
+[Expand]
+section3_simulation=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

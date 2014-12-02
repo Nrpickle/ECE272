@@ -1,0 +1,29 @@
+#Start recording tcl command: 6/4/2014 09:51:25
+#Project Location: C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign; Project name: section6_FinalDesign
+prj_project open "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign.ldf"
+prj_run Synthesis -impl section6_FinalDesign -task Lattice_Synthesis
+prj_run Synthesis -impl section6_FinalDesign -task Lattice_Synthesis
+prj_src exclude "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign -task Lattice_Synthesis
+prj_src enable "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign
+prj_src exclude "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign -task Lattice_Synthesis
+prj_src enable "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sec6sim.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sec6sim.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sec6sim.spf"
+prj_src remove "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign
+file copy -force -- "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/interpretADC.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign/source"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign/source/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign
+prj_src exclude "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign/source/interpretADC.v"
+prj_run Synthesis -impl section6_FinalDesign
+prj_run Synthesis -impl section6_FinalDesign
+prj_run Translate -impl section6_FinalDesign
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sec6sim/sec6sim.spf"
+prj_project save
+prj_project close
+#Stop recording: 6/4/2014 10:09:02

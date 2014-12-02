@@ -1,0 +1,3 @@
+@W: MT558 |Unable to locate source for clock clock_counter|clk_o_derived_clock. Clock will not be forward annotated
+@W: MT246 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\section6_top.v":14:16:14:22|Blackbox OSCH is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock Sec6_Top|clk_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:clk"

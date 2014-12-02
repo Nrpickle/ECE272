@@ -1,0 +1,8 @@
+.\sevenseg.v
+.\sevenSeg_tf.v
+.\determineNum.v
+.\determineNum_tf.v
+.\Section6_SM.v
+.\clock_counter.v
+.\Section6_Top.v
+.\Sec6_Top_tf.v

@@ -1,0 +1,52 @@
+#Start recording tcl command: 4/22/2014 20:44:43
+#Project Location: C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote; Project name: Lab2_TekbotRemote
+prj_project new -name "Lab2_TekbotRemote" -impl "Lab2_TekbotRemote" -dev LCMXO2-7000HE-5TG144C -synthesis "lse"
+prj_project save
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.sch"
+prj_run Synthesis -impl Lab2_TekbotRemote
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_simulation/Lab2_TekbotRemote_simulation.spf"
+prj_run Synthesis -impl Lab2_TekbotRemote
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.spf"
+pgr_project save "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.xcf"
+prj_src add -exclude "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.xcf"
+prj_src enable "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.xcf"
+prj_run Export -impl Lab2_TekbotRemote -task Jedecgen
+pgr_project close
+pgr_project open "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.xcf"
+pgr_program run
+prj_run Export -impl Lab2_TekbotRemote -task Jedecgen
+prj_run Synthesis -impl Lab2_TekbotRemote
+prj_run Synthesis -impl Lab2_TekbotRemote
+prj_run Export -impl Lab2_TekbotRemote -task Jedecgen
+pgr_program run
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+prj_run Synthesis -impl Lab2_TekbotRemote
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+pgr_project save "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote.xcf"
+pgr_project close
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+prj_run Synthesis -impl Lab2_TekbotRemote
+prj_run Synthesis -impl Lab2_TekbotRemote
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+prj_run Synthesis -impl Lab2_TekbotRemote
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lab2_TekbotRemote_schematic_tf.v"
+#Stop recording: 4/23/2014 00:51:43

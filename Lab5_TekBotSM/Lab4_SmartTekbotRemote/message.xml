@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BaliMessageLog>
+    <Milestone name="Export">
+        <Task name="TimingSimFileVlg">
+            <Engine name="ldbanno">
+                <Message>
+                    <ID>35400250</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - ldbanno finished with 0 posted error messages.</Text>
+                    <Dynamic>0</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+        <Task name="Jedecgen">
+            <Engine name="bitgen"/>
+        </Task>
+    </Milestone>
+    <Milestone name="Synthesis">
+        <Task name="Lattice_Synthesis">
+            <Engine name="gen_lattice_prj"/>
+            <Engine name="synthesis">
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/section5_top.v(1): compiling module Section5_Top. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/section5_top.v(1): </Dynamic>
+                    <Dynamic>Section5_Top</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/section5_top.v</Navigation>
+                    <Navigation>1</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1793): compiling module OSCH(NOM_FREQ="2.08"). VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1793): </Dynamic>
+                    <Dynamic>OSCH(NOM_FREQ="2.08")</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>1793</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/clock_counter.v(1): compiling module clock_counter. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/clock_counter.v(1): </Dynamic>
+                    <Dynamic>clock_counter</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/clock_counter.v</Navigation>
+                    <Navigation>1</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/section5_sm.v(1): compiling module Sec5_SM. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/section5_sm.v(1): </Dynamic>
+                    <Dynamic>Sec5_SM</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab5_tekbotsm/section5_sm.v</Navigation>
+                    <Navigation>1</Navigation>
+                </Message>
+                <Message>
+                    <ID>35935010</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - Bit 0 of Register \FSM_1/state_FSM is stuck at Zero. VDB-5010</Text>
+                    <Dynamic></Dynamic>
+                    <Dynamic>0</Dynamic>
+                    <Dynamic>\FSM_1/state_FSM</Dynamic>
+                </Message>
+                <Message>
+                    <ID>35001609</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - No .lpf file will be written because the -lpf option is not used or is set to zero.</Text>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'counter_1/dff_11_51_52_add_4_1/S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>counter_1/dff_11_51_52_add_4_1/S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'counter_1/dff_11_51_52_add_4_19/CO' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>counter_1/dff_11_51_52_add_4_19/CO</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1163101</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - DRC complete with 2 warnings</Text>
+                    <Dynamic>2</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+    <Milestone name="Map">
+        <Task name="Map">
+            <Engine name="map">
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(3): Semantic error in "LOCATE COMP "A" SITE "1" ;": COMP "A" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(3): Semantic error in "LOCATE COMP "A" SITE "1" ;": </Dynamic>
+                    <Dynamic>A</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>3</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(4): Semantic error in "LOCATE COMP "B" SITE "2" ;": COMP "B" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(4): Semantic error in "LOCATE COMP "B" SITE "2" ;": </Dynamic>
+                    <Dynamic>B</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>4</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(5): Semantic error in "LOCATE COMP "C" SITE "3" ;": COMP "C" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(5): Semantic error in "LOCATE COMP "C" SITE "3" ;": </Dynamic>
+                    <Dynamic>C</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>5</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(6): Semantic error in "LOCATE COMP "Le" SITE "140" ;": COMP "Le" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(6): Semantic error in "LOCATE COMP "Le" SITE "140" ;": </Dynamic>
+                    <Dynamic>Le</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>6</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(7): Semantic error in "LOCATE COMP "Ld" SITE "141" ;": COMP "Ld" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(7): Semantic error in "LOCATE COMP "Ld" SITE "141" ;": </Dynamic>
+                    <Dynamic>Ld</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>7</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(8): Semantic error in "LOCATE COMP "Rd" SITE "142" ;": COMP "Rd" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(8): Semantic error in "LOCATE COMP "Rd" SITE "142" ;": </Dynamic>
+                    <Dynamic>Rd</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>8</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(9): Semantic error in "LOCATE COMP "Re" SITE "143" ;": COMP "Re" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(9): Semantic error in "LOCATE COMP "Re" SITE "143" ;": </Dynamic>
+                    <Dynamic>Re</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>9</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(10): Semantic error in "LOCATE COMP "AnalogLDir" SITE "13" ;": COMP "AnalogLDir" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(10): Semantic error in "LOCATE COMP "AnalogLDir" SITE "13" ;": </Dynamic>
+                    <Dynamic>AnalogLDir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>10</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(11): Semantic error in "LOCATE COMP "AnalogRDir" SITE "14" ;": COMP "AnalogRDir" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(11): Semantic error in "LOCATE COMP "AnalogRDir" SITE "14" ;": </Dynamic>
+                    <Dynamic>AnalogRDir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>11</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(12): Semantic error in "LOCATE COMP "Rdir" SITE "119" ;": COMP "Rdir" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(12): Semantic error in "LOCATE COMP "Rdir" SITE "119" ;": </Dynamic>
+                    <Dynamic>Rdir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>12</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(13): Semantic error in "LOCATE COMP "Ren" SITE "120" ;": COMP "Ren" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(13): Semantic error in "LOCATE COMP "Ren" SITE "120" ;": </Dynamic>
+                    <Dynamic>Ren</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>13</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(14): Semantic error in "LOCATE COMP "Len" SITE "117" ;": COMP "Len" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(14): Semantic error in "LOCATE COMP "Len" SITE "117" ;": </Dynamic>
+                    <Dynamic>Len</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>14</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(15): Semantic error in "LOCATE COMP "Ldir" SITE "115" ;": COMP "Ldir" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(15): Semantic error in "LOCATE COMP "Ldir" SITE "115" ;": </Dynamic>
+                    <Dynamic>Ldir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>15</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(16): Semantic error in "IOBUF PORT "A" PULLMODE=UP ;": Port "A" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(16): Semantic error in "IOBUF PORT "A" PULLMODE=UP ;": </Dynamic>
+                    <Dynamic>A</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>16</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(17): Semantic error in "IOBUF PORT "AnalogLDir" PULLMODE=NONE ;": Port "AnalogLDir" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(17): Semantic error in "IOBUF PORT "AnalogLDir" PULLMODE=NONE ;": </Dynamic>
+                    <Dynamic>AnalogLDir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>17</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(18): Semantic error in "IOBUF PORT "AnalogRDir" PULLMODE=NONE ;": Port "AnalogRDir" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(18): Semantic error in "IOBUF PORT "AnalogRDir" PULLMODE=NONE ;": </Dynamic>
+                    <Dynamic>AnalogRDir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>18</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(19): Semantic error in "IOBUF PORT "B" PULLMODE=UP ;": Port "B" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(19): Semantic error in "IOBUF PORT "B" PULLMODE=UP ;": </Dynamic>
+                    <Dynamic>B</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>19</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(20): Semantic error in "IOBUF PORT "C" PULLMODE=UP ;": Port "C" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(20): Semantic error in "IOBUF PORT "C" PULLMODE=UP ;": </Dynamic>
+                    <Dynamic>C</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>20</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(21): Semantic error in "IOBUF PORT "Ldir" PULLMODE=NONE ;": Port "Ldir" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(21): Semantic error in "IOBUF PORT "Ldir" PULLMODE=NONE ;": </Dynamic>
+                    <Dynamic>Ldir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>21</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(22): Semantic error in "IOBUF PORT "Len" PULLMODE=NONE ;": Port "Len" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(22): Semantic error in "IOBUF PORT "Len" PULLMODE=NONE ;": </Dynamic>
+                    <Dynamic>Len</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>22</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(23): Semantic error in "IOBUF PORT "Rdir" PULLMODE=NONE ;": Port "Rdir" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(23): Semantic error in "IOBUF PORT "Rdir" PULLMODE=NONE ;": </Dynamic>
+                    <Dynamic>Rdir</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>23</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100644</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(24): Semantic error in "IOBUF PORT "Ren" PULLMODE=NONE ;": Port "Ren" does not exist in the design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf(24): Semantic error in "IOBUF PORT "Ren" PULLMODE=NONE ;": </Dynamic>
+                    <Dynamic>Ren</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>24</Navigation>
+                </Message>
+                <Message>
+                    <ID>1104062</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - Preference parsing results:  22 semantic errors detected</Text>
+                    <Dynamic></Dynamic>
+                    <Dynamic>22 semantic errors</Dynamic>
+                </Message>
+                <Message>
+                    <ID>51001230</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - There are semantic errors in the preference file C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/Lab4_SmartTekbotRemote.lpf</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+    <Milestone name="PAR">
+        <Task name="PAR">
+            <Engine name="mpartrce">
+                <Message>
+                    <ID>66011008</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - The following clock signals will be routed by using generic routing resource and may suffer from excessive delay and/or skew.</Text>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+</BaliMessageLog>

@@ -1,0 +1,43 @@
+Results of NGD DRC are available in interpretADC_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.1_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'add_168_7/CO' has no load
+WARNING - synthesis: logical net 'add_167_1/S0' has no load
+WARNING - synthesis: logical net 'add_166_7/CO' has no load
+WARNING - synthesis: logical net 'add_158_7/CO' has no load
+WARNING - synthesis: logical net 'add_158_7/S1' has no load
+WARNING - synthesis: logical net 'add_166_1/S0' has no load
+WARNING - synthesis: logical net 'add_165_7/CO' has no load
+WARNING - synthesis: logical net 'add_165_1/S0' has no load
+WARNING - synthesis: logical net 'add_164_7/CO' has no load
+WARNING - synthesis: logical net 'add_164_1/S0' has no load
+WARNING - synthesis: logical net 'add_163_7/CO' has no load
+WARNING - synthesis: logical net 'add_158_3/S0' has no load
+WARNING - synthesis: logical net 'add_158_3/S1' has no load
+WARNING - synthesis: logical net 'add_417_2/S0' has no load
+WARNING - synthesis: logical net 'add_167_7/CO' has no load
+WARNING - synthesis: logical net 'add_168_1/S0' has no load
+WARNING - synthesis: logical net 'add_163_1/S0' has no load
+WARNING - synthesis: logical net 'add_158_5/S0' has no load
+WARNING - synthesis: logical net 'add_158_5/S1' has no load
+WARNING - synthesis: logical net 'add_162_7/CO' has no load
+WARNING - synthesis: logical net 'add_158_1/S0' has no load
+WARNING - synthesis: logical net 'add_158_1/S1' has no load
+WARNING - synthesis: logical net 'add_162_1/S0' has no load
+WARNING - synthesis: logical net 'add_413_8/CO' has no load
+WARNING - synthesis: logical net 'add_413_2/S0' has no load
+WARNING - synthesis: logical net 'add_417_8/CO' has no load
+WARNING - synthesis: logical net 'add_417_8/S1' has no load
+WARNING - synthesis: DRC complete with 27 warnings
+
+Design Results:
+     72 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file section6_FinalDesign_section6_FinalDesign.ngd.

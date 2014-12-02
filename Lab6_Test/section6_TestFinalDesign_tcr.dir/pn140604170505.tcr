@@ -1,0 +1,21 @@
+#Start recording tcl command: 6/4/2014 10:09:02
+#Project Location: C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test; Project name: section6_TestFinalDesign
+prj_project new -name "section6_TestFinalDesign" -impl "section6_TestFinalDesign" -dev LCMXO2-7000HE-4TG144C -synthesis "lse"
+file copy -force -- "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/determineNum.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/Section6_SM.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/Section6_Top.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/sevenseg.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/determineNum.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_Top.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/sevenseg.v"
+prj_project save
+file copy -force -- "C:/lscc/diamond/3.1_x64/bin/nt64/Lab5_TekBotSM/clock_counter.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/clock_counter.v"
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Sec6_Top_tf.v"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/sec6sim/sec6sim.spf"
+prj_run Synthesis -impl section6_TestFinalDesign
+prj_run Synthesis -impl section6_TestFinalDesign
+prj_run Translate -impl section6_TestFinalDesign
+prj_run Synthesis -impl section6_TestFinalDesign
+prj_run Synthesis -impl section6_TestFinalDesign
+prj_run Translate -impl section6_TestFinalDesign
+file copy -force -- "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/ADC_module.v" "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/ADC_module.v"
+prj_run Translate -impl section6_TestFinalDesign
+#Stop recording: 6/4/2014 17:05:05

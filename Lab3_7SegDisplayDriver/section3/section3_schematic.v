@@ -1,0 +1,93 @@
+/* Verilog model created from schematic section3_schematic.sch -- May 07, 2014 14:52 */
+
+module section3_schematic( A, B, C, D, LED, SegA, SegB, SegC, SegD, SegE, SegF,
+                           SegG );
+ input A;
+ input B;
+ input C;
+ input D;
+output LED;
+output SegA;
+output SegB;
+output SegC;
+output SegD;
+output SegE;
+output SegF;
+output SegG;
+wire N_44;
+wire N_45;
+wire N_46;
+wire N_42;
+wire N_43;
+wire N_35;
+wire N_39;
+wire N_28;
+wire N_29;
+wire N_30;
+wire N_16;
+wire N_17;
+wire N_18;
+wire N_19;
+wire N_20;
+wire N_21;
+wire N_22;
+wire N_23;
+wire N_24;
+wire N_25;
+wire N_26;
+wire N_1;
+wire N_2;
+wire N_3;
+wire N_8;
+wire N_9;
+wire N_10;
+wire N_11;
+wire N_12;
+wire N_13;
+wire N_14;
+wire N_15;
+
+
+
+AND2 I23 ( .A(N_45), .B(N_35), .Z(N_21) );
+OR3 I36 ( .A(N_29), .B(N_30), .C(N_28), .Z(SegG) );
+OR3 I24 ( .A(N_22), .B(N_20), .C(N_21), .Z(SegE) );
+OR3 I18 ( .A(N_3), .B(N_1), .C(N_2), .Z(SegC) );
+AND3 I33 ( .A(N_45), .B(N_42), .C(N_44), .Z(N_28) );
+AND3 I25 ( .A(N_45), .B(N_42), .C(N_46), .Z(N_18) );
+AND3 I26 ( .A(N_45), .B(N_46), .C(N_35), .Z(N_17) );
+AND3 I27 ( .A(N_45), .B(N_42), .C(N_35), .Z(N_16) );
+AND3 I28 ( .A(N_42), .B(N_44), .C(N_35), .Z(N_20) );
+AND3 I29 ( .A(N_45), .B(N_43), .C(N_44), .Z(N_22) );
+AND3 I19 ( .A(N_43), .B(N_46), .C(N_35), .Z(N_25) );
+AND3 I5 ( .A(N_43), .B(N_46), .C(LED), .Z(N_10) );
+AND3 I4 ( .A(N_39), .B(N_43), .C(LED), .Z(N_11) );
+AND3 I3 ( .A(N_39), .B(N_46), .C(N_35), .Z(N_15) );
+AND3 I2 ( .A(N_39), .B(N_43), .C(LED), .Z(N_1) );
+AND3 I1 ( .A(N_39), .B(N_43), .C(N_46), .Z(N_2) );
+OR4 I30 ( .A(N_19), .B(N_16), .C(N_17), .D(N_18), .Z(SegF) );
+OR4 I31 ( .A(N_26), .B(N_23), .C(N_24), .D(N_25), .Z(SegD) );
+OR4 I7 ( .A(N_12), .B(N_8), .C(N_9), .D(N_13), .Z(SegA) );
+OR4 I6 ( .A(N_14), .B(N_10), .C(N_11), .D(N_15), .Z(SegB) );
+AND4 I35 ( .A(N_45), .B(N_43), .C(N_46), .D(N_35), .Z(N_29) );
+AND4 I34 ( .A(N_39), .B(N_43), .C(N_44), .D(LED), .Z(N_30) );
+AND4 I32 ( .A(N_39), .B(N_43), .C(N_44), .D(N_35), .Z(N_19) );
+AND4 I22 ( .A(N_45), .B(N_43), .C(N_44), .D(LED), .Z(N_26) );
+AND4 I20 ( .A(N_39), .B(N_42), .C(N_46), .D(LED), .Z(N_24) );
+AND4 I21 ( .A(N_45), .B(N_42), .C(N_44), .D(N_35), .Z(N_23) );
+AND4 I13 ( .A(N_45), .B(N_42), .C(N_44), .D(N_35), .Z(N_12) );
+AND4 I12 ( .A(N_45), .B(N_43), .C(N_44), .D(LED), .Z(N_8) );
+AND4 I11 ( .A(N_39), .B(N_43), .C(N_44), .D(N_35), .Z(N_9) );
+AND4 I10 ( .A(N_39), .B(N_42), .C(N_46), .D(N_35), .Z(N_13) );
+AND4 I9 ( .A(N_45), .B(N_43), .C(N_44), .D(N_35), .Z(N_14) );
+AND4 I8 ( .A(N_45), .B(N_42), .C(N_46), .D(LED), .Z(N_3) );
+INV I15 ( .A(N_46), .Z(N_44) );
+INV I16 ( .A(N_43), .Z(N_42) );
+INV I37 ( .A(D), .Z(N_35) );
+INV I38 ( .A(C), .Z(N_46) );
+INV I39 ( .A(B), .Z(N_43) );
+INV I40 ( .A(A), .Z(N_39) );
+INV I17 ( .A(N_39), .Z(N_45) );
+INV I14 ( .A(N_35), .Z(LED) );
+
+endmodule // section3_schematic

@@ -1,0 +1,66 @@
+timestamp=1400100073410
+
+[$root]
+A/$root=22|""|0|1*10784
+BinI32/$root=3*2725
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Lab2_TekbotRemote_schematic]
+A/Lab2_TekbotRemote_schematic=22|./../Lab2_TekbotRemote_schematic.v|3|1*11206
+BinI32/Lab2_TekbotRemote_schematic=3*2853
+R=./../Lab2_TekbotRemote_schematic.v|3
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Lolhi]
+A/Lolhi=22|./../Section4_Verilog.v|1|1*3143
+BinI32/Lolhi=3*397
+R=./../Section4_Verilog.v|1
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Lolhi_tf]
+A/Lolhi_tf=22|./../Lolhi_tf.v|18|1*9055
+BinI32/Lolhi_tf=3*1621
+R=./../Lolhi_tf.v|18
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[inverter_nick_yay]
+A/inverter_nick_yay=22|./../Section4_Verilog.v|59|1*6649
+BinI32/inverter_nick_yay=3*738
+R=./../Section4_Verilog.v|59
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[mux2]
+A/mux2=22|./../Section4_Verilog.v|48|1*7586
+BinI32/mux2=3*1058
+R=./../Section4_Verilog.v|48
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[section2_schematic]
+A/section2_schematic=22|./../section2_schematic.v|3|1*390
+BinI32/section2_schematic=3*128
+R=./../section2_schematic.v|3
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Lab2_TekbotRemote_schematic.v=0*6644*7338
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Lolhi_tf.v=0*4682*5389
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/Section4_Verilog.v=0*2900*3807
+C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_sim/section2_schematic.v=0*599*1236
+LastVerilogToplevel=Lab2_TekbotRemote_schematic
+ModifyID=71
+Version=73
+
+[~MFT]
+0=17|0work.mgf|7338|0
+1=12|1work.mgf|11206|1170
+3=12|3work.mgf|2853|384
+
+[~U]
+$root=12|0*5913|
+Lab2_TekbotRemote_schematic=12|0*6175||0x10
+Lolhi=12|0*1984||0x10
+Lolhi_tf=12|0*4569||0x10
+inverter_nick_yay=12|0*2527|
+mux2=12|0*2706|
+section2_schematic=12|0*198||0x10
+

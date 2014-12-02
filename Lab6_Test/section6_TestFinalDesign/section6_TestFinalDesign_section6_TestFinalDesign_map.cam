@@ -1,0 +1,191 @@
+[ START MERGED ]
+reset_n_c_i reset_n_c
+[ END MERGED ]
+[ START CLIPPED ]
+counter_1/GND
+int/GND
+interp/GND
+det/GND
+VCC
+SEDSTDBY
+counter_1/count_2_cry_11_0_COUT
+counter_1/count_2_cry_0_0_S1_0
+counter_1/count_2_cry_0_0_S0_0
+counter_1/N_1
+int/count_2_cry_0_0_S1
+int/count_2_cry_0_0_S0
+int/N_1
+int/count_2_s_7_0_S1
+int/count_2_s_7_0_COUT
+interp/mult1_un68_sum_cry_2_0_S1_0
+interp/mult1_un68_sum_cry_2_0_S0_0
+interp/N_1
+interp/mult1_un68_sum_cry_7_0_COUT_0
+interp/mult1_un61_sum_cry_2_0_S1_0
+interp/mult1_un61_sum_cry_2_0_S0_0
+interp/N_2
+interp/mult1_un61_sum_cry_7_0_COUT_0
+interp/mult1_un54_sum_cry_2_0_S1_0
+interp/mult1_un54_sum_cry_2_0_S0_0
+interp/N_3
+interp/mult1_un54_sum_cry_7_0_COUT_0
+interp/mult1_un47_sum_cry_2_0_S1_0
+interp/mult1_un47_sum_cry_2_0_S0_0
+interp/N_4
+interp/mult1_un47_sum_cry_7_0_COUT_0
+interp/mult1_un103_sum_cry_2_0_S1
+interp/mult1_un103_sum_cry_2_0_S0
+interp/N_5
+interp/mult1_un103_sum_cry_7_0_COUT
+interp/mult1_un96_sum_cry_2_0_S1
+interp/mult1_un96_sum_cry_2_0_S0
+interp/N_6
+interp/mult1_un96_sum_cry_7_0_COUT
+interp/mult1_un89_sum_cry_2_0_S1
+interp/mult1_un89_sum_cry_2_0_S0
+interp/N_7
+interp/mult1_un89_sum_cry_7_0_COUT
+interp/mult1_un82_sum_cry_2_0_S1
+interp/mult1_un82_sum_cry_2_0_S0
+interp/N_8
+interp/mult1_un82_sum_cry_7_0_COUT
+interp/mult1_un75_sum_cry_2_0_S1
+interp/mult1_un75_sum_cry_2_0_S0
+interp/N_9
+interp/mult1_un75_sum_cry_7_0_COUT
+interp/mult1_un117_sum_cry_0_0_S1
+interp/mult1_un117_sum_cry_0_0_S0
+interp/N_10
+interp/mult1_un117_sum_cry_1_0_S1
+interp/mult1_un117_sum_cry_1_0_S0
+interp/mult1_un117_sum_cry_3_0_S1
+interp/mult1_un117_sum_cry_3_0_S0
+interp/mult1_un117_sum_cry_5_0_S0
+interp/mult1_un117_sum_cry_5_0_COUT
+interp/mult1_un110_sum_cry_1_0_S1
+interp/mult1_un110_sum_cry_1_0_S0
+interp/N_11
+interp/mult1_un110_sum_cry_6_0_COUT
+interp/mult1_un40_sum_cry_2_0_S1_0
+interp/mult1_un40_sum_cry_2_0_S0_0
+interp/N_12
+interp/mult1_un40_sum_cry_7_0_COUT_0
+interp/voltage_1_0_cry_0_0_S1
+interp/voltage_1_0_cry_0_0_S0
+interp/N_13
+interp/voltage_1_0_cry_8_0_S1
+interp/voltage_1_0_cry_8_0_COUT
+det/mult1_un47_sum_cry_2_0_S1
+det/mult1_un47_sum_cry_2_0_S0
+det/N_1
+det/mult1_un47_sum_cry_7_0_COUT
+det/mult1_un74_sum_cry_3_0_S1
+det/mult1_un74_sum_cry_3_0_S0
+det/N_2
+det/mult1_un74_sum_cry_4_0_S1
+det/mult1_un74_sum_cry_4_0_S0
+det/mult1_un74_sum_cry_6_0_S1
+det/mult1_un74_sum_cry_6_0_S0
+det/mult1_un74_sum_cry_8_0_S1
+det/mult1_un74_sum_cry_8_0_S0
+det/mult1_un74_sum_cry_10_0_S0
+det/mult1_un74_sum_cry_10_0_COUT
+det/mult1_un67_sum_cry_3_0_S1
+det/mult1_un67_sum_cry_3_0_S0
+det/N_3
+det/mult1_un67_sum_cry_10_0_COUT
+det/mult1_un60_sum_cry_3_0_S1
+det/mult1_un60_sum_cry_3_0_S0
+det/N_4
+det/mult1_un60_sum_cry_10_0_COUT
+det/mult1_un53_sum_cry_3_0_S1
+det/mult1_un53_sum_cry_3_0_S0
+det/N_5
+det/mult1_un53_sum_cry_10_0_COUT
+det/un1_dispNum_2_cry_1_0_S1
+det/un1_dispNum_2_cry_1_0_S0
+det/N_6
+det/un1_dispNum_2_cry_2_0_COUT
+det/mult1_un68_sum_cry_1_0_S1
+det/mult1_un68_sum_cry_1_0_S0
+det/N_7
+det/mult1_un68_sum_cry_4_0_S0
+det/mult1_un68_sum_cry_4_0_COUT
+det/mult1_un61_sum_cry_1_0_S1
+det/mult1_un61_sum_cry_1_0_S0
+det/N_8
+det/mult1_un61_sum_cry_4_0_COUT
+det/mult1_un54_sum_cry_1_0_S1
+det/mult1_un54_sum_cry_1_0_S0
+det/N_9
+det/mult1_un54_sum_cry_4_0_COUT
+det/mult1_un47_sum_cry_1_0_S1
+det/mult1_un47_sum_cry_1_0_S0
+det/N_10
+det/mult1_un47_sum_cry_4_0_COUT
+det/mult1_un68_sum_cry_2_0_S1
+det/mult1_un68_sum_cry_2_0_S0
+det/N_11
+det/mult1_un68_sum_cry_3_0_S1
+det/mult1_un68_sum_cry_3_0_S0
+det/mult1_un68_sum_cry_5_0_S1
+det/mult1_un68_sum_cry_5_0_S0
+det/mult1_un68_sum_cry_7_0_S0
+det/mult1_un68_sum_cry_7_0_COUT
+det/mult1_un61_sum_cry_2_0_S1
+det/mult1_un61_sum_cry_2_0_S0
+det/N_12
+det/mult1_un61_sum_cry_7_0_COUT
+det/mult1_un54_sum_cry_2_0_S1
+det/mult1_un54_sum_cry_2_0_S0
+det/N_13
+det/mult1_un54_sum_cry_7_0_COUT
+det/mult1_un46_sum_cry_3_0_S1
+det/mult1_un46_sum_cry_3_0_S0
+det/N_16
+det/mult1_un46_sum_cry_10_0_COUT
+det/mult1_un40_sum_cry_2_0_S1
+det/mult1_un40_sum_cry_2_0_S0
+det/N_17
+det/mult1_un40_sum_cry_7_0_COUT
+det/mult1_un40_sum_cry_1_0_S1
+det/mult1_un40_sum_cry_1_0_S0
+det/N_18
+det/mult1_un40_sum_cry_4_0_COUT
+[ END CLIPPED ]
+[ START OSC ]
+clk_c 2.08
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.1.0.96 -- WARNING: Map write only section -- Thu Jun 05 18:05:47 2014
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE ;
+LOCATE COMP "sel[0]" SITE "140" ;
+PGROUP "PIOauto_sel[0]" 
+	COMP "sel[0]";
+LOCATE PGROUP "PIOauto_sel[0]" BANK 0 ;
+LOCATE COMP "ADCData[0]" SITE "120" ;
+LOCATE COMP "WR_n" SITE "133" ;
+LOCATE COMP "RD_n" SITE "132" ;
+LOCATE COMP "CS_n" SITE "138" ;
+LOCATE COMP "digit" SITE "117" ;
+LOCATE COMP "segments[6]" SITE "109" ;
+LOCATE COMP "segments[5]" SITE "110" ;
+LOCATE COMP "segments[4]" SITE "111" ;
+LOCATE COMP "segments[3]" SITE "112" ;
+LOCATE COMP "segments[2]" SITE "113" ;
+LOCATE COMP "segments[1]" SITE "114" ;
+LOCATE COMP "segments[0]" SITE "115" ;
+LOCATE COMP "sel[2]" SITE "142" ;
+LOCATE COMP "sel[1]" SITE "141" ;
+LOCATE COMP "ADCData[7]" SITE "127" ;
+LOCATE COMP "ADCData[6]" SITE "128" ;
+LOCATE COMP "ADCData[5]" SITE "125" ;
+LOCATE COMP "ADCData[4]" SITE "126" ;
+LOCATE COMP "ADCData[3]" SITE "121" ;
+LOCATE COMP "ADCData[2]" SITE "122" ;
+LOCATE COMP "ADCData[1]" SITE "119" ;
+FREQUENCY NET "clk_c" 2.080000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

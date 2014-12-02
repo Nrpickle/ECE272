@@ -1,0 +1,51 @@
+----------------------------------------------------------------------
+Report for cell Lolhi.<NoName>
+Register bits:  0 of 5148 (0.000%)
+I/O cells:      9
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         2          100.0
+                               AND3         1          100.0
+                                GSR         1          100.0
+                                 IB         5          100.0
+                                INV         3          100.0
+                               LUT4         7          100.0
+                                 OB         4          100.0
+                                OR2         2          100.0
+SUB MODULES
+                  inverter_nick_yay         1
+               inverter_nick_yay_U0         1
+               inverter_nick_yay_U1         1
+                 section2_schematic         1
+                              TOTAL        29
+----------------------------------------------------------------------
+Report for cell section2_schematic.v1
+Instance Path : lab2Logic
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         2          100.0
+                               AND3         1          100.0
+                                INV         3          100.0
+                                OR2         2          100.0
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell inverter_nick_yay_U0.v1
+Instance Path : invB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1           14.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell inverter_nick_yay.v1
+Instance Path : invC
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2           28.6
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell inverter_nick_yay_U1.v1
+Instance Path : invA
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2           28.6
+                              TOTAL         2

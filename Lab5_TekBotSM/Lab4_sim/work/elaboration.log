@@ -1,0 +1,32 @@
+Active-HDL 9.3.2744.4995  2014-05-14 13:41:13
+
+Elaboration top modules:
+Verilog Module                Lolhi_tf
+
+
+-----------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version         | Compilation Options
+-----------------------------------------------------------------------------------------------
+Lolhi_tf                | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Lolhi                   | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+inverter_nick_yay       | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+section2_schematic      | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+mux2                    | work        |      | 9.3.2744.4995  (Windows) | -l work -dbg
+AND3                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+AND2                    | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+OR2                     | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+INV                     | ovi_machxo2 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------
+ovi_machxo2             | LATTICE Diamond 3.1, MACHXO2 VERILOG LIBRARY
+work                    | None
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r Lolhi_tf -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

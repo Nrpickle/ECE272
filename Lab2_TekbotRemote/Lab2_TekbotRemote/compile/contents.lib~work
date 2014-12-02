@@ -1,0 +1,7 @@
+29
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../Lab2_TekbotRemote_schematic.v" 3 Lab2_TekbotRemote_schematic
+~A 1 "./../Lab2_TekbotRemote_schematic.v" 3 Lab2_TekbotRemote_schematic
+~M 3 "./../../Lab2_TekbotRemote_schematic_tf.v" 18 Lab2_TekbotRemote_schematic_tf
+~A 1 "./../../Lab2_TekbotRemote_schematic_tf.v" 18 Lab2_TekbotRemote_schematic_tf

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\synlog\section6_TestFinalDesign_section6_TestFinalDesign_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>Sec6_Top|clk_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>183.9 MHz</data>
+<data>994.561</data>
+</row>
+</report_table>

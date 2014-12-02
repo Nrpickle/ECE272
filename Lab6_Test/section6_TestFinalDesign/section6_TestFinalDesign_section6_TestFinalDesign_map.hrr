@@ -1,0 +1,67 @@
+---------------------------------------------------
+Report for cell Sec6_Top
+   Instance path: Sec6_Top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     166.00        100.0
+                                  LUT4	      76.00        100.0
+                                 IOBUF	         23        100.0
+                                PFUREG	         25        100.0
+                                RIPPLE	        128        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              sevenSeg	          1         2.0
+                          interpretADC	          1        38.9
+                          determineNum	          1        42.9
+                         clock_counter	          1         7.3
+                               Sec6_SM	          1         2.0
+                          ADCinterface	          1         5.7
+---------------------------------------------------
+Report for cell sevenSeg
+   Instance path: Sec6_Top/segDecoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.33         2.0
+                                  LUT4	       7.00         9.2
+---------------------------------------------------
+Report for cell determineNum
+   Instance path: Sec6_Top/det
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      71.17        42.9
+                                  LUT4	      19.00        25.0
+                                RIPPLE	         62        48.4
+---------------------------------------------------
+Report for cell interpretADC
+   Instance path: Sec6_Top/interp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      64.50        38.9
+                                  LUT4	      21.00        27.6
+                                RIPPLE	         54        42.2
+---------------------------------------------------
+Report for cell Sec6_SM
+   Instance path: Sec6_Top/FSM_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.33         2.0
+                                  LUT4	       6.00         7.9
+                                PFUREG	          2         8.0
+---------------------------------------------------
+Report for cell ADCinterface
+   Instance path: Sec6_Top/int
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50         5.7
+                                  LUT4	       9.00        11.8
+                                PFUREG	          9        36.0
+                                RIPPLE	          5         3.9
+---------------------------------------------------
+Report for cell clock_counter
+   Instance path: Sec6_Top/counter_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.17         7.3
+                                  LUT4	      10.00        13.2
+                                PFUREG	         14        56.0
+                                RIPPLE	          7         5.5

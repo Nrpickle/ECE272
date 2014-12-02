@@ -1,0 +1,38 @@
+#Start recording tcl command: 5/12/2014 22:58:40
+#Project Location: C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote; Project name: Lab4_SmartTekbotRemote
+prj_project new -name "Lab4_SmartTekbotRemote" -impl "Lab4_SmartTekbotRemote" -dev LCMXO2-7000HE-4TG144C -synthesis "lse"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.sch"
+prj_project save
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_Verilog.v"
+prj_run Synthesis -impl Lab4_SmartTekbotRemote
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+prj_run Synthesis -impl Lab4_SmartTekbotRemote
+prj_run Synthesis -impl Lab4_SmartTekbotRemote
+prj_run Synthesis -impl Lab4_SmartTekbotRemote
+prj_run Synthesis -impl Lab4_SmartTekbotRemote
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/Section4_sim.spf"
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg -forceAll
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lolhi_tf.v"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/Section4_sim.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/Section4_sim.spf"
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/Section4_sim.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/section2_schematic.sch"
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/Section4_sim.spf"
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lolhi_tf.v"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/Section4_sim.spf"
+prj_src remove "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.sch"
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+source "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/hdle_generate_tbtemplate.tcl"
+prj_src add -simulate_only "Lolhi_tf.v"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Sec4_sim/Sec4_sim.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Sec4_sim/Sec4_sim.spf"
+prj_src add "C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.sch"
+prj_run Export -impl Lab4_SmartTekbotRemote -task TimingSimFileVlg
+#Stop recording: 5/13/2014 19:41:28

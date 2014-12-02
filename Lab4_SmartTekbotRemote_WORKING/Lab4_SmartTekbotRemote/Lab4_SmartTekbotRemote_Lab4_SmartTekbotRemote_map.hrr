@@ -1,0 +1,40 @@
+---------------------------------------------------
+Report for cell Lolhi
+   Instance path: Lolhi
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00        100.0
+                                  LUT4	       6.00        100.0
+                                 IOBUF	          9        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    section2_schematic	          1        44.4
+                     inverter_nick_yay	          1        16.7
+                  inverter_nick_yay_U0	          1         0.0
+                  inverter_nick_yay_U1	          1        16.7
+---------------------------------------------------
+Report for cell section2_schematic
+   Instance path: Lolhi/lab2Logic
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.33        44.4
+                                  LUT4	       2.00        33.3
+---------------------------------------------------
+Report for cell inverter_nick_yay_U0
+   Instance path: Lolhi/invB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell inverter_nick_yay
+   Instance path: Lolhi/invC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        16.7
+                                  LUT4	       1.00        16.7
+---------------------------------------------------
+Report for cell inverter_nick_yay_U1
+   Instance path: Lolhi/invA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        16.7
+                                  LUT4	       1.00        16.7

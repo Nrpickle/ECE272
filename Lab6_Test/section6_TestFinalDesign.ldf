@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.0" title="section6_TestFinalDesign" device="LCMXO2-7000HE-4TG144C" default_implementation="section6_TestFinalDesign">
+    <Options/>
+    <Implementation title="section6_TestFinalDesign" dir="section6_TestFinalDesign" description="section6_TestFinalDesign" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="Sec6_Top"/>
+        <Source name="section6_TestFinalDesign/source/determineNum.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign/source/Section6_SM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign/source/Section6_Top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Sec6_Top"/>
+        </Source>
+        <Source name="section6_TestFinalDesign/source/sevenseg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign/source/clock_counter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign/source/ADC_module.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Sec6_Top_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign/source/interpretADC.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="sec6sim/sec6sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="section6_TestFinalDesign/section6_TestFinalDesign.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="section6_TestFinalDesign1.sty"/>
+</BaliProject>

@@ -1,0 +1,59 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+sec6sim=.\sec6sim\sec6sim.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+sec6sim=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\sevenseg.v=-1
+/..\sevenSeg_tf.v=-1
+/..\determineNum.v=-1
+/..\determineNum_tf.v=-1
+/..\Section6_SM.v=-1
+/..\clock_counter.v=-1
+/..\Section6_Top.v=-1
+/..\Sec6_Top_tf.v=-1
+[Files.Data]
+.\sevenseg.v=Verilog Source Code
+.\sevenSeg_tf.v=Verilog Source Code
+.\determineNum.v=Verilog Source Code
+.\determineNum_tf.v=Verilog Source Code
+.\Section6_SM.v=Verilog Source Code
+.\clock_counter.v=Verilog Source Code
+.\Section6_Top.v=Verilog Source Code
+.\Sec6_Top_tf.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

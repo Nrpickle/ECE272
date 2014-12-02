@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Report>
+<ReportView version="2.0">
+    <Implement name="section6_FinalDesign">
+        <ToolReport id="toolhle_genhierarchy" path="C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_FinalDesign/section6_FinalDesign/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolhle_runbkm" path="" status="0"/>
+        <ToolReport id="toolpio" path="" status="0"/>
+        <ToolReport id="toolsso" path="" status="0"/>
+    </Implement>
+</ReportView>

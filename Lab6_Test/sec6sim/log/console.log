@@ -1,0 +1,189 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/sevenseg.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\sevenseg.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/determineNum.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\determineNum.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\Section6_SM.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/clock_counter.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/ADC_module.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\ADC_module.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_Top.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\Section6_Top.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/Sec6_Top_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\Sec6_Top_tf.v ... Done
+vlib C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/sec6sim/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/sevenseg.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: sevenSeg.
+# $root top modules: sevenSeg.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/determineNum.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/determineNum.v, ln 16).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Unit top modules: determineNum.
+# $root top modules: sevenSeg determineNum.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v, ln 31).
+# Parameters in case labels, will not check for overlapping labels (C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_SM.v, ln 43).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Unit top modules: Sec6_SM.
+# $root top modules: sevenSeg determineNum Sec6_SM.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/clock_counter.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Unit top modules: clock_counter.
+# $root top modules: sevenSeg determineNum Sec6_SM clock_counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/ADC_module.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Unit top modules: ADCinterface.
+# $root top modules: sevenSeg determineNum Sec6_SM clock_counter ADCinterface.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/section6_TestFinalDesign/source/Section6_Top.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module ADCinterface found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Sec6_Top.
+# $root top modules: Sec6_Top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/Sec6_Top_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Sec6_Top found in current working library.
+# Info: VCP2113 Module ADCinterface found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Info: VCP2113 Module ADCinterface found in current working library.
+# Info: VCP2113 Module clock_counter found in current working library.
+# Info: VCP2113 Module Sec6_SM found in current working library.
+# Info: VCP2113 Module determineNum found in current working library.
+# Info: VCP2113 Module sevenSeg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Sec6_Top_tf.
+# $root top modules: Sec6_Top_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module Sec6_Top_tf
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sec6_Top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ADCinterface' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'clock_counter' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Sec6_SM' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'determineNum' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'sevenSeg' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r Sec6_Top_tf -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sec6_Top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ADCinterface' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'clock_counter' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Sec6_SM' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'determineNum' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'sevenSeg' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.2 [s]
+# SLP: Finished : 1.3 [s]
+# SLP: 3 (20.00%) primitives and 12 (80.00%) other processes in SLP
+# SLP: 46 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5319 kB (elbread=1023 elab2=4150 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\sec6sim\src\wave.asdb
+#  5:57 PM, Wednesday, June 04, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: Sec6_Top_tf (Sec6_Top_tf)
+add wave *
+# 7 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/lscc/diamond/3.1_x64/bin/nt64/Lab6_Test/sec6sim/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+run @1s
+# KERNEL: stopped at time: 1 sec
+#  Simulation has been stopped

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BaliMessageLog>
+    <Milestone name="Export">
+        <Task name="Jedecgen">
+            <Engine name="bitgen"/>
+        </Task>
+    </Milestone>
+    <Milestone name="Map">
+        <Task name="Map">
+            <Engine name="map"/>
+        </Task>
+    </Milestone>
+    <Milestone name="PAR">
+        <Task name="PAR">
+            <Engine name="mpartrce"/>
+        </Task>
+    </Milestone>
+    <Milestone name="Synthesis">
+        <Task name="Lattice_Synthesis">
+            <Engine name="gen_lattice_prj"/>
+            <Engine name="synthesis">
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v(3): compiling module Lab2_TekbotRemote_schematic. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v(3): </Dynamic>
+                    <Dynamic>Lab2_TekbotRemote_schematic</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v</Navigation>
+                    <Navigation>3</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(936): compiling module OR3. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(936): </Dynamic>
+                    <Dynamic>OR3</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>936</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): compiling module AND2. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): </Dynamic>
+                    <Dynamic>AND2</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>43</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(930): compiling module OR2. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(930): </Dynamic>
+                    <Dynamic>OR2</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>930</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): compiling module INV. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): </Dynamic>
+                    <Dynamic>INV</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>563</Navigation>
+                </Message>
+                <Message>
+                    <ID>1009991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - WARNING: Net Rd has following drivers :</Text>
+                    <Dynamic>WARNING: Net Rd has following drivers : 
+
+</Dynamic>
+                </Message>
+                <Message>
+                    <ID>35931000</ID>
+                    <Severity>Error</Severity>
+                    <Text>ERROR - c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v(9): net Rd is constantly driven from multiple places. VDB-1000</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v(9): </Dynamic>
+                    <Dynamic>Rd</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab2_tekbotremote/lab2_tekbotremote/lab2_tekbotremote_schematic.v</Navigation>
+                    <Navigation>9</Navigation>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+</BaliMessageLog>

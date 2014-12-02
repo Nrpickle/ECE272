@@ -1,0 +1,14 @@
+[COMPILESTATUS|.\Lab2_TekbotRemote_schematic.v]
+FileTimeLow=30367434
+Status=Modified
+
+[COMPILESTATUS|.\..\Lab2_TekbotRemote_schematic_tf.v]
+FileTimeLow=30367434
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\Lab2_TekbotRemote.adf|]
+Path=/Lab2_TekbotRemote_schematic_tf
+

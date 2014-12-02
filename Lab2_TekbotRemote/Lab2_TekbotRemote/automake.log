@@ -1,0 +1,2 @@
+
+sch2vlog -FPGA -i C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.sch -o C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/Lab2_TekbotRemote/Lab2_TekbotRemote_schematic.v -gui -msgset C:/lscc/diamond/3.1_x64/bin/nt64/Lab2_TekbotRemote/promote.xml

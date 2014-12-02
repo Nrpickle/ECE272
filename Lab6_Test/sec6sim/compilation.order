@@ -1,0 +1,7 @@
+.\..\section6_TestFinalDesign\source\sevenseg.v
+.\..\section6_TestFinalDesign\source\determineNum.v
+.\..\section6_TestFinalDesign\source\Section6_SM.v
+.\..\section6_TestFinalDesign\source\clock_counter.v
+.\..\section6_TestFinalDesign\source\ADC_module.v
+.\..\section6_TestFinalDesign\source\Section6_Top.v
+.\..\Sec6_Top_tf.v

@@ -1,0 +1,1 @@
+ -erf "C:\lscc\diamond\3.1_x64\bin\nt64\Lab4_SmartTekbotRemote\Section4_sim\compile\Section4_sim.erf" -work work -lc C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/library.cfg -fl C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/projlib.cfg -o C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Section4_sim/compile -l "work"   -dbg

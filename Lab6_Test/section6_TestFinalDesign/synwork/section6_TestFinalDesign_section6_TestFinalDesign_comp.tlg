@@ -1,0 +1,28 @@
+Selecting top level module Sec6_Top
+@N: CG364 :"C:\lscc\diamond\3.1_x64\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":1:7:1:19|Synthesizing module clock_counter
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\ADC_module.v":4:7:4:18|Synthesizing module ADCinterface
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\Section6_SM.v":1:7:1:13|Synthesizing module Sec6_SM
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\interpretADC.v":1:7:1:18|Synthesizing module interpretADC
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\determineNum.v":1:7:1:18|Synthesizing module determineNum
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\sevenseg.v":1:7:1:14|Synthesizing module sevenSeg
+
+@N: CG364 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\Section6_Top.v":1:7:1:14|Synthesizing module Sec6_Top
+
+@N: CL201 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\Section6_SM.v":21:1:21:6|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":11:2:11:7|Optimizing register bit count[13] to a constant 0
+@W: CL190 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":11:2:11:7|Optimizing register bit count[14] to a constant 0
+@W: CL279 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":11:2:11:7|Pruning register bits 14 to 13 of count[14:0] 
+

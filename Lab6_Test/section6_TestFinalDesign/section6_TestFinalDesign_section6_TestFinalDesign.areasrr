@@ -1,0 +1,98 @@
+----------------------------------------------------------------------
+Report for cell Sec6_Top.verilog
+
+Register bits: 25 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D      128       100.0
+                            FD1P3DX        1       100.0
+                            FD1S3DX       24       100.0
+                                GSR        1       100.0
+                                 IB        9       100.0
+                                INV       17       100.0
+                                 OB       14       100.0
+                           ORCALUT4       59       100.0
+                               OSCH        1       100.0
+                              PFUMX        2       100.0
+                                PUR        1       100.0
+                                VHI        6       100.0
+                                VLO        6       100.0
+SUB MODULES 
+                       ADCinterface        1       100.0
+                            Sec6_SM        1       100.0
+                      clock_counter        1       100.0
+                       determineNum        1       100.0
+                       interpretADC        1       100.0
+                           sevenSeg        1       100.0
+                            
+                         TOTAL           275           
+----------------------------------------------------------------------
+Report for cell sevenSeg.netlist
+     Instance path:  segDecoder
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        7        11.9
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell determineNum.netlist
+     Instance path:  det
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       62        48.4
+                           ORCALUT4       19        32.2
+                              PFUMX        2       100.0
+                                VHI        1        16.7
+                                VLO        1        16.7
+                            
+                         TOTAL            85           
+----------------------------------------------------------------------
+Report for cell interpretADC.netlist
+     Instance path:  interp
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       54        42.2
+                                INV       13        76.5
+                           ORCALUT4        8        13.6
+                                VHI        1        16.7
+                                VLO        1        16.7
+                            
+                         TOTAL            77           
+----------------------------------------------------------------------
+Report for cell Sec6_SM.netlist
+     Instance path:  FSM_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        1       100.0
+                            FD1S3DX        1         4.2
+                           ORCALUT4        6        10.2
+                                VHI        1        16.7
+                                VLO        1        16.7
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell ADCinterface.netlist
+     Instance path:  int
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        5         3.9
+                            FD1S3DX        9        37.5
+                           ORCALUT4        9        15.3
+                                VHI        1        16.7
+                                VLO        1        16.7
+                            
+                         TOTAL            25           
+----------------------------------------------------------------------
+Report for cell clock_counter.netlist
+     Instance path:  counter_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        7         5.5
+                            FD1S3DX       14        58.3
+                           ORCALUT4       10        16.9
+                                VHI        1        16.7
+                                VLO        1        16.7
+                            
+                         TOTAL            33           

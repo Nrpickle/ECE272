@@ -1,0 +1,12 @@
+synthesis:  version Diamond (64-bit) 3.1.0.96
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jun 04 10:17:17 2014
+
+
+Command Line:  synthesis -f section6_TestFinalDesign_section6_TestFinalDesign_lattice.synproj -gui 
+

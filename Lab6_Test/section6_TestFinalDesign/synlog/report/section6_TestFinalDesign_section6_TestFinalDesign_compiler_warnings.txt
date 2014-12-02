@@ -1,0 +1,4 @@
+@W: CL190 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":11:2:11:7|Optimizing register bit count[13] to a constant 0
+@W: CL190 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":11:2:11:7|Optimizing register bit count[14] to a constant 0
+@W: CL279 :"C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\source\clock_counter.v":11:2:11:7|Pruning register bits 14 to 13 of count[14:0] 
+

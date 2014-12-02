@@ -1,0 +1,84 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.1_x64\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.1_x64\synpbase
+Date:        Thu Jun 05 23:21:46 2014
+Version:     I-2013.09L 
+
+Arguments:   -product synplify_pro  -batch section6_TestFinalDesign_section6_TestFinalDesign_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\section6_TestFinalDesign_section6_TestFinalDesign.srr"
+
+
+
+
+
+Running proj_1|section6_TestFinalDesign
+
+
+Running: Compile on proj_1|section6_TestFinalDesign
+
+
+Running: Compile Process on proj_1|section6_TestFinalDesign
+
+
+Running: Compile Input on proj_1|section6_TestFinalDesign
+
+Copied C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\synwork\section6_TestFinalDesign_section6_TestFinalDesign_comp.srs to C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\section6_TestFinalDesign_section6_TestFinalDesign.srs
+
+compiler Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+
+Copied C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\section6_TestFinalDesign_section6_TestFinalDesign.srr to C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\section6_TestFinalDesign_section6_TestFinalDesign.srf
+
+Complete: Compile Process on proj_1|section6_TestFinalDesign
+
+
+Running: Premap on proj_1|section6_TestFinalDesign
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+
+
+Complete: Compile on proj_1|section6_TestFinalDesign
+
+
+Running: Map on proj_1|section6_TestFinalDesign
+
+
+Running: Map & Optimize on proj_1|section6_TestFinalDesign
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+
+
+Complete: Map on proj_1|section6_TestFinalDesign
+
+Copied C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\section6_TestFinalDesign_section6_TestFinalDesign.srr to C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\section6_TestFinalDesign_section6_TestFinalDesign.srf
+
+Complete: Logic Synthesis on proj_1|section6_TestFinalDesign
+
+TCL script complete: "section6_TestFinalDesign_section6_TestFinalDesign_synplify.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+Save changes for project:
+C:\lscc\diamond\3.1_x64\bin\nt64\Lab6_Test\section6_TestFinalDesign\proj_1.prj
+
+batch mode default:no
+

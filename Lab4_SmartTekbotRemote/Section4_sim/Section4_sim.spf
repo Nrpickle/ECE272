@@ -1,0 +1,9 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="Section4_sim" simType="Active-HDL">
+    <Source worklib="work" path="Lab4_SmartTekbotRemote/section2_schematic.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="Section4_Verilog.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="Lolhi_tf.v" type="VERILOG" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="Lolhi_tf"/>
+</BaliSimProject>

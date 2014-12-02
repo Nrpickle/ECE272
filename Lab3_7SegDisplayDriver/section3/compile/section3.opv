@@ -1,0 +1,1 @@
+ -erf "C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3\compile\section3.erf" -work work -lc C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3/library.cfg -fl C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3/projlib.cfg -o C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3/compile -l "work"   -dbg

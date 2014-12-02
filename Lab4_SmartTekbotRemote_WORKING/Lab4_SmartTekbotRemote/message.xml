@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BaliMessageLog>
+    <Milestone name="Export">
+        <Task name="TimingSimFileVlg">
+            <Engine name="ldbanno">
+                <Message>
+                    <ID>35400250</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - ldbanno finished with 0 posted error messages.</Text>
+                    <Dynamic>0</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+        <Task name="Jedecgen">
+            <Engine name="bitgen"/>
+        </Task>
+    </Milestone>
+    <Milestone name="Synthesis">
+        <Task name="Lattice_Synthesis">
+            <Engine name="gen_lattice_prj"/>
+            <Engine name="synthesis">
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v(1): compiling module Lolhi. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v(1): </Dynamic>
+                    <Dynamic>Lolhi</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v</Navigation>
+                    <Navigation>1</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v(59): compiling module inverter_nick_yay. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v(59): </Dynamic>
+                    <Dynamic>inverter_nick_yay</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v</Navigation>
+                    <Navigation>59</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/lab4_smarttekbotremote/section2_schematic.v(3): compiling module section2_schematic. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/lab4_smarttekbotremote/section2_schematic.v(3): </Dynamic>
+                    <Dynamic>section2_schematic</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/lab4_smarttekbotremote/section2_schematic.v</Navigation>
+                    <Navigation>3</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(49): compiling module AND3. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(49): </Dynamic>
+                    <Dynamic>AND3</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>49</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): compiling module AND2. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(43): </Dynamic>
+                    <Dynamic>AND2</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>43</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(930): compiling module OR2. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(930): </Dynamic>
+                    <Dynamic>OR2</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>930</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): compiling module INV. VERI-1018</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(563): </Dynamic>
+                    <Dynamic>INV</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+                    <Navigation>563</Navigation>
+                </Message>
+                <Message>
+                    <ID>35901018</ID>
+                    <Severity>Info</Severity>
+                    <Text>INFO - c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v(48): compiling module mux2. VERI-1018</Text>
+                    <Dynamic>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v(48): </Dynamic>
+                    <Dynamic>mux2</Dynamic>
+                    <Navigation>c:/lscc/diamond/3.1_x64/bin/nt64/lab4_smarttekbotremote/section4_verilog.v</Navigation>
+                    <Navigation>48</Navigation>
+                </Message>
+                <Message>
+                    <ID>35001609</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - No .lpf file will be written because the -lpf option is not used or is set to zero.</Text>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'GND_net' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>GND_net</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1163101</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - DRC complete with 1 warnings</Text>
+                    <Dynamic>1</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+    <Milestone name="Map">
+        <Task name="Map">
+            <Engine name="map">
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(6): Semantic error in "LOCATE COMP "Le" SITE "140" ;": COMP "Le" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(6): Semantic error in "LOCATE COMP "Le" SITE "140" ;": </Dynamic>
+                    <Dynamic>Le</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>6</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(7): Semantic error in "LOCATE COMP "Ld" SITE "141" ;": COMP "Ld" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(7): Semantic error in "LOCATE COMP "Ld" SITE "141" ;": </Dynamic>
+                    <Dynamic>Ld</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>7</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(8): Semantic error in "LOCATE COMP "Rd" SITE "142" ;": COMP "Rd" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(8): Semantic error in "LOCATE COMP "Rd" SITE "142" ;": </Dynamic>
+                    <Dynamic>Rd</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>8</Navigation>
+                </Message>
+                <Message>
+                    <ID>1100679</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(9): Semantic error in "LOCATE COMP "Re" SITE "143" ;": COMP "Re" not found in design. Disable this preference.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf(9): Semantic error in "LOCATE COMP "Re" SITE "143" ;": </Dynamic>
+                    <Dynamic>Re</Dynamic>
+                    <Navigation>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf</Navigation>
+                    <Navigation>9</Navigation>
+                </Message>
+                <Message>
+                    <ID>1104062</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - Preference parsing results:  4 semantic errors detected</Text>
+                    <Dynamic></Dynamic>
+                    <Dynamic>4 semantic errors</Dynamic>
+                </Message>
+                <Message>
+                    <ID>51001230</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - There are semantic errors in the preference file C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf.</Text>
+                    <Dynamic>C:/lscc/diamond/3.1_x64/bin/nt64/Lab4_SmartTekbotRemote/Lab4_SmartTekbotRemote.lpf</Dynamic>
+                </Message>
+            </Engine>
+        </Task>
+    </Milestone>
+    <Milestone name="PAR">
+        <Task name="PAR">
+            <Engine name="mpartrce"/>
+        </Task>
+    </Milestone>
+</BaliMessageLog>

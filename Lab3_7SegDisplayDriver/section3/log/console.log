@@ -1,0 +1,38 @@
+# Design Explorer: Shortcut to "C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3\section3.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3/section3_schematic.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3\section3_schematic.v ... Done
+addfile C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3_schematic_tf.v
+# Adding file C:\lscc\diamond\3.1_x64\bin\nt64\Lab3_7SegDisplayDriver\section3_schematic_tf.v ... Done
+vlib C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3/section3_schematic.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: section3_schematic.
+# $root top modules: section3_schematic.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/lscc/diamond/3.1_x64/bin/nt64/Lab3_7SegDisplayDriver/section3_schematic_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module section3_schematic found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: section3_schematic_tf.
+# $root top modules: section3_schematic_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done

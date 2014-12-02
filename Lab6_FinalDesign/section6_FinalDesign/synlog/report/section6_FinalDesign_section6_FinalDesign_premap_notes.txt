@@ -1,0 +1,6 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MF236 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":19:37:19:49|Generating a type div divider 
+@N: MF236 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":18:36:18:47|Generating a type div divider 
+@N: MF236 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":18:20:18:33|Generating a type div divider 
+@N: MF237 :"c:\lscc\diamond\3.1_x64\bin\nt64\lab6_finaldesign\determinenum.v":17:20:17:32|Generating a type rem remainder 

@@ -1,0 +1,14 @@
+[Version]
+Version=9.3
+[Designs]
+sec3_sim=sec3_sim.adf
+[Settings]
+Active=sec3_sim
+[Expand]
+sec3_sim=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

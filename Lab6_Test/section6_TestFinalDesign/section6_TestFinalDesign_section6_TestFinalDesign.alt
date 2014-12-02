@@ -1,0 +1,31 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Jun 05 18:05:59 2014 *
+NOTE DESIGN NAME: Sec6_Top *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS sel[0] : 140 : out *
+NOTE PINS ADCData[0] : 120 : in *
+NOTE PINS WR_n : 133 : out *
+NOTE PINS RD_n : 132 : out *
+NOTE PINS CS_n : 138 : out *
+NOTE PINS digit : 117 : out *
+NOTE PINS segments[6] : 109 : out *
+NOTE PINS segments[5] : 110 : out *
+NOTE PINS segments[4] : 111 : out *
+NOTE PINS segments[3] : 112 : out *
+NOTE PINS segments[2] : 113 : out *
+NOTE PINS segments[1] : 114 : out *
+NOTE PINS segments[0] : 115 : out *
+NOTE PINS sel[2] : 142 : out *
+NOTE PINS sel[1] : 141 : out *
+NOTE PINS reset_n : 1 : in *
+NOTE PINS ADCData[7] : 127 : in *
+NOTE PINS ADCData[6] : 128 : in *
+NOTE PINS ADCData[5] : 125 : in *
+NOTE PINS ADCData[4] : 126 : in *
+NOTE PINS ADCData[3] : 121 : in *
+NOTE PINS ADCData[2] : 122 : in *
+NOTE PINS ADCData[1] : 119 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

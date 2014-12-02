@@ -1,0 +1,35 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module Sec6_Top found in current working library."
+MESSAGE_SP VCP2113 "Module ADCinterface found in current working library."
+MESSAGE_SP VCP2113 "Module clock_counter found in current working library."
+MESSAGE_SP VCP2113 "Module Sec6_SM found in current working library."
+MESSAGE_SP VCP2113 "Module determineNum found in current working library."
+MESSAGE_SP VCP2113 "Module sevenSeg found in current working library."
+MESSAGE_SP VCP2113 "Module ADCinterface found in current working library."
+MESSAGE_SP VCP2113 "Module clock_counter found in current working library."
+MESSAGE_SP VCP2113 "Module Sec6_SM found in current working library."
+MESSAGE_SP VCP2113 "Module determineNum found in current working library."
+MESSAGE_SP VCP2113 "Module sevenSeg found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 84
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
+UPDATEPROGRESS 91
+UPDATEPROGRESS 93
+UPDATEPROGRESS 95
+UPDATEPROGRESS 97
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: Sec6_Top_tf."
+MESSAGE "$root top modules: Sec6_Top_tf."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"
